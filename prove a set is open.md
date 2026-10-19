@@ -4,6 +4,6 @@
 
 These definitions feel very abstract, but I hope that they will feel very familiar with enough practice.
 
-![circle](/Images/circle%20photo.png)
+<img src="Images/circle%20photo.png" alt="circle" width="200"/>
 
-<img src="Images/circle%20photo.png" alt="circle" width="100"/>
+In this image, we let the red space be a set in $\mathbb{R}^2$ and we let circles be the basis which generates the topology on the plane. We know that a set is open if for any point, we can fit a basis element around the point and remain in the set. Contrast this with a *boundary point*, where a basis element will always stick out of the open set.
