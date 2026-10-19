@@ -12,6 +12,6 @@ In the above image, we let the red space be a set in **R**$^2$ and we let circle
 
 (Lemma 2): a set $U$ is open if and only if $\forall x\in U, \exists V$ open such that $x\in V\subseteq U$.
 
-The $\Leftarrow$ proof of (L1) is trivial because that is the definition of **B** generating topologies. Now assume by contradiction that there exists a set $U$ which is open but $\exists x\in U$ where no $B\in$**B** satisfies $x\in B\subseteq U$.
+The $\Leftarrow$ proof of (L1) is trivial because that is the definition of **B** generating topologies &#x2611;. For the $\Rightarrow$ proof, assume by contradiction that there exists a set $U$ which is open but $\exists x\in U$ where no $B\in$**B** satisfies $x\in B\subseteq U$. BLAH BLAH BLAH
 
 $\Leftarrow$ Recall that $U$ being open means that for said $x\in U, \exists B\in$**B** such that $x\in B\subseteq U$, and because $B$ is open, $V:=B$ satisfies $x\in V\subseteq U$, proving the backward direction. &#x2611;
