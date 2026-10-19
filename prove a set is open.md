@@ -50,3 +50,7 @@ A topology $T_1$ is finer than another topology $T_A$ if every open set in $T_A$
 
 6. Let &#8477; have the standard topology. Write an example of an open set in &#8477; × &#8477; using the product topology. Can you draw it?
 * Recall that the basis for the product topology of $A \times B$ is &#123; $U \times V \mid U \text{ is open in }A, V \text{ is open in }B$ &#125;.
+
+7. Let $\Delta = $ &#123; $(x,x) \mid x \in X$ &#125;. Prove that $X$ is a Hausdorff space if and only if $X\times X - \Delta$ is open using the product topology on $X\times X$.
+* Recall that the Hausdorff condition states that for any two distinct points $x\ne y$ in a Hausdorff space $X$, there exist neighborhoods $U,V$ of $x,y$ such that $x\in U$, $y\in V$, and $U\cap V=$&#8709;. These neighborhoods are open by definition.
+* If $A \cap B = \varnothing$ for nonempty subsets $A$ and $B$ of $X$, is $A \cap B \subseteq \Delta$ possible?
