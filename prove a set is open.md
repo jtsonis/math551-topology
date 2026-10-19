@@ -34,7 +34,7 @@ A topology $T_1$ is finer than another topology $T_A$ if every open set in $T_A$
 # Example Questions
 
 1. Recall that &#123; $[a,b)\mid a,b \in$ &#8477;&#125; be the basis that generates the lower limit topology on &#8477; and let &#123; $(a,b)\mid a,b \in$ &#8477;&#125; be the basis that generates the standard topology on &#8477;. Prove that $(0,1)$ is open in the lower limit topology. Prove that $[0,1)$ is not open in the standard topology.
-* All open sets in a topology can be written as the arbitrary union of and/or the finite intersection of other open sets, but that does not always make it the best strategy. For instance, $(0,1)=\bigcup_{i=2}^\infty [\frac{1}{n},1)$ which is open in the lower limit topology, but *there is an easier proof* to show that $[0,1)$ is open in the lower limit topology by using (Lemma 1).
+* All open sets in a topology can be written as the arbitrary union of and/or the finite intersection of other open sets, but that does not always make it the best strategy. For instance, $(0,1)=\bigcup_{i=2}^\infty [1/n,1)$ which is open in the lower limit topology, but *there is an easier proof* to show that $[0,1)$ is open in the lower limit topology by using (Lemma 1).
 * To show that $[0,1)$ is not open in the standard topology, focus on $x = 0$ which might affect the $\forall x\in [0,1)$ criterion from (Lemma 1).
 
 2. Prove that &#8474; is not open. Prove that &#8477; $-$ &#8474; is not open either.
