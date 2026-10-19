@@ -1,6 +1,6 @@
 **Recall:** a topological space $(X,$**T**$)$ is a set $X$ equipped with a topology $\mathcal{T}$. A topology **T** is a collection of subsets of $X$ that includes $\varnothing$, $X$, arbitrary unions of subcollections of **T**, and finite intersections of subcollections of **T**. A set $U$ is open only if $U \in \mathcal{T}$.
 
-**Recall:** a basis **B**---which is a collection of subsets of $X$ such that $\forall x\in X$, $\exists B\in$**B** such that $x\in B$, and $\forall B_1 \cap B_2 \ni x$, $\exists B_3\in$**B** such that $x\in B_3 \subseteq B_1 \cap B_2$---generates a topology **T** if for all open sets $U \in$**T**, $\exists B\in$**B** such that $x\in B \subseteq U$.
+**Recall:** a basis **B**---which is a collection of subsets of $X$ such that $\forall x\in X, \exists B\in$**B** such that $x\in B$, and $\forall B_1 \cap B_2 \ni x, \exists B_3\in$**B** such that $x\in B_3 \subseteq B_1 \cap B_2$---generates a topology **T** if for all open sets $U \in$**T**$,\exists B\in$**B** such that $x\in B \subseteq U$.
 
 These definitions feel very abstract, but I hope that they will feel very familiar with enough practice.
 
@@ -14,4 +14,4 @@ In the above image, we let the red space be a set in **R**$^2$ and we let circle
 
 The $\Leftarrow$ proof of (L1) is trivial because that is the definition of **B** generating topologies. Now assume by contradiction that there exists a set $U$ which is open but $\exists x\in U$ where no $B\in$**B** satisfies $x\in B\subseteq U$.
 
-$\Leftarrow$ Recall that $U$ being open means that for said $x\in U$, $\exists B\in$**B** such that $x\in B\subseteq U$, and because $B$ is open, $V:=B$ satisfies $x\in V\subseteq U$, proving the backward direction. &#x2611;
+$\Leftarrow$ Recall that $U$ being open means that for said $x\in U, \exists B\in$**B** such that $x\in B\subseteq U$, and because $B$ is open, $V:=B$ satisfies $x\in V\subseteq U$, proving the backward direction. &#x2611;
