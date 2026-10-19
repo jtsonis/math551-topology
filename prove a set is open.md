@@ -4,4 +4,4 @@
 
 These definitions feel very abstract, but I hope that they will feel very familiar with enough practice.
 
-![circle](/Images/circle photo.png)
+![circle](/Images/circle%20photo.png)
