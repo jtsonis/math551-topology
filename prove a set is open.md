@@ -48,5 +48,5 @@ A topology $T_1$ is finer than another topology $T_A$ if every open set in $T_A$
 5. Show that if $U$ is open in $X$ and $X - A$ is open in $X$, then $U - A$ is open and $X - (A - U)$ is open.
 * Use set theory.
 
-6. Let &#8477; have the standard topology. Write an example of an open set in &#8477; × &#8477; using the product topology.
+6. Let &#8477; have the standard topology. Write an example of an open set in &#8477; × &#8477; using the product topology. Can you draw it?
 * Recall that the basis for the product topology of $A \times B$ is &#123; $U \times V \mid U \text{ is open in }A, V \text{ is open in }B$ &#125;.
