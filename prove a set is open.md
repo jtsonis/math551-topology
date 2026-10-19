@@ -41,3 +41,12 @@ A topology $T_1$ is finer than another topology $T_A$ if every open set in $T_A$
 
 3. If $X = [0,1) \cup \{2\}$, is $[0,1)$ open in the order topology? Is $[0,1]$? Is $\{2\}$ open?
 * Recall that the basis for the order topology is all sets $(a,b)$, as well as $[\text{MIN}, a)$ and $(a, \text{MAX}]$.
+
+4. Let $U$ be an open set and let $D$ be a set that is not open. Can $U \cup D$ be open? Can $U \cap D$ be open?
+* Use set theory.
+
+5. Show that if $U$ is open in $X$ and $X - A$ is open in $X$, then $U - A$ is open and $X - (A - U)$ is open.
+* Use set theory.
+
+6. Let &#8477; have the standard topology. Write an example of an open set in &#8477; × &#8477; using the product topology.
+* Recall that the basis for the product topology of $A \times B$ is &#123; $U \times V \mid U \text{ is open in }A, V \text{ is open in }B$ &#125;.
