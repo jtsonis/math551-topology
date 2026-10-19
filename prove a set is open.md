@@ -8,6 +8,10 @@ These definitions feel very abstract, but I hope that they will feel very famili
 
 In the above image, we let the red space be a set in **R**$^2$ and we let circles be the basis which generates the topology on the plane. We know that a set is open if for any point, we can fit a basis element around the point and remain in the set. Contrast this with a *boundary point*, where a basis element will always stick out of the open set.
 
-The following will be proven, but a set $U$ is open in $X$ if and only if for all $x \in U$, $\exists V$ open in $X$ such that $x \in V \subseteq U$.
+(Lemma 1): a set $U$ is open if and only if $\forall x\in U \exists B\in$**B** such that $x\in B\subseteq U$.
 
-$\Rightarrow$ Let **B** be the basis which generates the topology on $(X,$**T**$)$.
+(Lemma 2): a set $U$ is open if and only if $\forall x\in U\exists V$ open such that $x\in V\subseteq U$.
+
+The $\Leftarrow$ proof of (L1) is trivial because that is the definition of **B** generating topologies. Now assume by contradiction that there exists a set $U$ which is open but $\exists x\in U$ where no $B\in$**B** satisfies $x\in B\subseteq U$.
+
+$\Leftarrow$ Recall that $U$ being open means that for said $x\in U$, $\exists B\in$**B** such that $x\in B\subseteq U$, and because $B$ is open, $V:=B$ satisfies $x\in V\subseteq U$, proving the backward direction. &#x2611;
