@@ -6,4 +6,4 @@ These definitions feel very abstract, but I hope that they will feel very famili
 
 ![circle](/Images/circle%20photo.png)
 
-<img src="Images/circle%20photo.png" alt="circle" width="200"/>
+<img src="Images/circle%20photo.png" alt="circle" width="100"/>
