@@ -39,5 +39,5 @@ A topology $T_1$ is finer than another topology $T_A$ if every open set in $T_A$
 
 2. Prove that &#8474; is not open. Prove that &#8477; $-$ &#8474; is not open either.
 
-3. If $X = [0,1) \cup \{2\}$, is $[0,1)$ open in the order topology? Is $[0,1]$?
+3. If $X = [0,1) \cup \{2\}$, is $[0,1)$ open in the order topology? Is $[0,1]$? Is $\{2\}$ open?
 * Recall that the basis for the order topology is all sets $(a,b)$, as well as $[\text{MIN}, a)$ and $(a, \text{MAX}]$.
