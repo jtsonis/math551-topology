@@ -1,1 +1,1 @@
-I learned that $2 + 2 = 4$.
+**Recall:** a topological space $(X, \mathcal{T})$ is a set $X$ equipped with a topology $\mathcal{T}$. A topology $\mathcal{T}$ is a collection of subsets of $X$ that includes $\varnothing$, $X$, arbitrary unions of subcollections of $\mathcal{T}$, and finite intersections of subcollections of $\mathcal{T}$.
