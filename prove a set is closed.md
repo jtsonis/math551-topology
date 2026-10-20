@@ -18,4 +18,6 @@ Consider $(0,1)$. Neither $0$ nor $1$ are points in this set, however they are l
 
 <img src="Images/circle-(0,1).png" alt="circle" width="250"/>
 
-* A set $C$ is closed only if it contains all of its limit points, or $C' \subseteq C$.
+A set $C$ is closed if only if it contains all of its limit points, or $C' \subseteq C$. 
+
+To prove the $\Rightarrow$ direction, assume by way of contradiction that $C$ is closed, $x\in C'$, however $x\not\in C$. As a complement, $x $
