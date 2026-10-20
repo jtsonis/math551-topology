@@ -13,7 +13,7 @@ In the above image, we let the red space be a set in &#8477;
 
 As one more note, the $x\in B\subseteq U$ condition for openness really should be considered an "if and only if" condition. Consider $(0,1)$ in the real numbers. Is $(0,1)$ open? In the $$\text{\color{blue}indiscrete topology}$$ **T** = &#123;&#8709;, &#8477;&#125;, the answer is clearly no. However in the standard topology on &#8477;, where **B** = &#123; $(a,b)\mid a,b\in$ &#8477;, $a<b$ &#125;, the set $(0,1)$ is open. Lastly, in the $$\text{\color{red}discrete topology}$$, which contains all subsets of &#8477;, $(0,1)$ is trivially open. All of this is to say that the same set can be open or not depending on the topology, and topologies can be classified by which basis generates them. Therefore we define a set $U$ as being open in $X$ with the condition $x\in B\subseteq U$ for a basis element *from the basis that generates the topology on $X$.*
 
-⍟ (Lemma 1): a set $U$ is open if and only if $\forall x\in U, \exists V$ open such that $x\in V\subseteq U$. ⍟
+## ⍟ (Lemma 1): a set $U$ is open if and only if $\forall x\in U, \exists V$ open such that $x\in V\subseteq U$. ⍟
 
 $\Rightarrow$ If $U$ is open, then $\forall x\in U$, $\exists B\in$**B** such that $x\in B\subseteq U$. Because $x \in B$ implies $x\in B\subseteq B$, these basis elements $B$ are open, satisfying the forward direction with $V:=B$. &#x2611;
 
@@ -21,11 +21,11 @@ $\Leftarrow$ Let **V**$=\bigcup_{i\in\lambda} V_i$ be a union of open sets such 
 
 Sadly, all of this is still very abstract. _Are basis elements not easier to use?_ For some problems, basis elements make computation a piece of cake. For other problems, primarily about topologically continuous functions $f\colon X\colon\rightarrow Y$, using a generalized notion of open sets is more helpful. For example, one popular proof is to show that $X$ is a Hausdorff space if and only if $X-\Delta$ is open, where $\Delta = \{(x,x)\mid x\in X\}$. There is no specific basis for $X$ in this problem, and it does not need one.
 
-⍟ Definition ⍟
+## ⍟ Definition ⍟
 
 First of all, if a set is defined to be in the topology, then it is open. If a set is the arbitrary union of other open sets or is the finite intersection of open sets, then it is open. Consider the finite complement topology, and the set $X-\{p\}$ for some $p\in X$ is open since its complement is finite. If a function $f\colon X\rightarrow Y$ is topologically continuous, and $V$ is open in $Y$, then $f^{-1}(V)$ is open in $X$ by definition. The Hausdorff condition guarantees for two distinct points $x\ne y$ in a Hausdorff space that there exist neighborhoods $U,V$ such that $x\in U$, $y\in V$, $U\cap V=$&#8709;; these neighborhoods $U$ and $V$ are open by definition of the Hausdorff condition.
 
-⍟ Interiors ⍟
+## ⍟ Interiors ⍟
 
 Let $U^\circ$ be the union of all open sets which are a subset of $U$. This is an arbitrary union of open sets so $U^\circ$ is clearly open for all sets, open or not; additionally, $U^\circ \subseteq U$ by set theory. Additionally, and this is an example question below, $U = U^\circ$ if and only if $U$ is open. $U^\circ$ can also be considered as the set of all points which are "interior" to $U$, because if $x\in U$ and $\exists V$ open such that $x\in V\subseteq U$, then there is an open set around $x$ in $U$ (trivially). If there is a point $p\in U$ such that no subset of $U$ fits around $p$, then $p$ is not an interior point and $U \ne U^\circ$. 
 
@@ -35,7 +35,7 @@ In a very intuitive sense, think of these open sets as bubbles. Bubbles are flex
 
 <img src="Images/bubble-in-a-cube.png" alt="bubble" width="250"/>
 
-⍟ Finer Topologies ⍟
+## ⍟ Finer Topologies ⍟
 
 A topology $T_1$ is finer than another topology $T_A$ if every open set in $T_A$ is an open set in $T_1$, i.e. $T_1 \supseteq T_A$. Of course, if $U$ is open in $T_A$, then $U$ is open in $T_1$. The reason why this is at the end of the section is because you will almost never solve a problem this directly; rather, you would determine whether one topology is finer than another based on the above strategies.
 
