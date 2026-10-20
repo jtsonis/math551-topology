@@ -27,13 +27,17 @@ First of all, if a set is defined to be in the topology, then it is open. If a s
 
 ⍟ Interiors ⍟
 
-Let $U^\circ$ be the union of all open sets which are a subset of $U$. This is an arbitrary union of open sets so $U^\circ$ is clearly open for all open sets 
+Let $U^\circ$ be the union of all open sets which are a subset of $U$. This is an arbitrary union of open sets so $U^\circ$ is clearly open for all sets, open or not; additionally, $U^\circ \subseteq U$ by set theory. Additionally, and this is an example question below, $U = U^\circ$ if and only if $U$ is open. $U^\circ$ can also be considered as the set of all points which are "interior" to $U$, because if $x\in U$ and $\exists V$ open such that $x\in V\subseteq U$, then there is an open set around $x$ in $U$ (trivially). If there is a point $p\in U$ such that no subset of $U$ fits around $p$, then $p$ is not an interior point and $U \ne U^\circ$. 
 
-And that is it! Either a set is open by basic definition, or there is an open subset around every point in said set. Technically, these notions are the same, but different strategies serve different problems better.
+As an example, in the standard topology, $[0,1]^\circ = (0,1)$ because for all $x\in(0,1)$, then $(0,1)$ is open and satisfies $x\in(0,1)\subseteq[0,1]$; $0\not\in[0,1]^\circ$ because there is no basis element $(a,b)$ such that $0\in(a,b)\subseteq[0,1]$ because that would imply $a<0$ and $0\le a$ at the same time; $1\not\in[0,1]^\circ$ because there is no basis element $(c,d)$ such that $1\in(c,d)\subseteq[0,1]$ because that would imply $1<d$ and $d\le 1$ at the same time.
+
+In a very intuitive sense, imagine
 
 ⍟ Finer Topologies ⍟
 
 A topology $T_1$ is finer than another topology $T_A$ if every open set in $T_A$ is an open set in $T_1$, i.e. $T_1 \supseteq T_A$. Of course, if $U$ is open in $T_A$, then $U$ is open in $T_1$. The reason why this is at the end of the section is because you will almost never solve a problem this directly; rather, you would determine whether one topology is finer than another based on the above strategies.
+
+And that is it! Either a set is open by basic definition, or there is an open subset around every point in said set. Technically, these notions are the same, but different strategies serve different problems better.
 
 # Example Questions
 
@@ -60,3 +64,8 @@ A topology $T_1$ is finer than another topology $T_A$ if every open set in $T_A$
 8. Let $\Delta = $ &#123; $(x,x) \mid x \in X$ &#125;. Prove that $X$ is a Hausdorff space if and only if $X\times X - \Delta$ is open using the product topology on $X\times X$.
 * Recall that the Hausdorff condition states that for any two distinct points $x\ne y$ in a Hausdorff space $X$, there exist neighborhoods $U,V$ of $x,y$ such that $x\in U$, $y\in V$, and $U\cap V=$&#8709;. These neighborhoods are open by definition.
 * If $A \cap B = \varnothing$ for nonempty subsets $A$ and $B$ of $X$, is $A \cap B \subseteq \Delta$ possible?
+
+9. Prove that $U^\circ = U$ if and only if $U$ is open.
+* Consider that if $U^\circ \ne U$
+
+If $x\in U$ and $U$ is open, then there is a $V$ open with $x\in V\subseteq U$, but that means $V$ is in the union of open subsets of $U$ so $x\in $
