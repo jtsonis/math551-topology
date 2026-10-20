@@ -49,7 +49,7 @@ And that is it! Either a set is open by basic definition, or there is an open su
 * All open sets in a topology can be written as the arbitrary union of and/or the finite intersection of other open sets, but that does not always make it the best strategy. For instance, $(0,1)=\bigcup_{i=2}^\infty [1/n,1)$ which is open in the lower limit topology, but *there is an easier proof* to show that $[0,1)$ is open in the lower limit topology by using (Lemma 1).
 * To show that $[0,1)$ is not open in the standard topology, focus on $x = 0$ which might affect the $\forall x\in [0,1)$ criterion from (Lemma 1).
 
-3. Prove that &#8474; is not open. Prove that &#8477; $-$ &#8474; is not open either.
+3. Prove that &#8474; is not open in the standard topology. Prove that &#8477; $-$ &#8474; is not open in this topology either.
 
 4. If $X = [0,1) \cup \{2\}$, is $[0,1)$ open in the order topology? Is $[0,1]$? Is $\{2\}$ open?
 * Recall that the basis for the order topology is all sets $(a,b)$, as well as $[\text{MIN}, a)$ and $(a, \text{MAX}]$.
