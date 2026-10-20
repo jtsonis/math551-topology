@@ -18,8 +18,15 @@ Consider $(0,1)$. Neither $0$ nor $1$ are points in this set, however they are l
 
 <img src="Images/circle-(0,1).png" alt="circle" width="250"/>
 
-(Lemma 2): A set $C$ is closed if only if it contains all of its limit points, or $C' \subseteq C$. 
+(Lemma 2): 
 
 To prove the $\Rightarrow$ direction, assume by way of contradiction that $C$ is closed, $x\in C'$, however $x\not\in C$. As a complement, $x $
+
+⍟ (Lemma 2): a set $C$ is closed if only if it contains all of its limit points, or $C' \subseteq C$. ⍟
+
+$\Rightarrow$ If $U$ is open, then $\forall x\in U$, $\exists B\in$**B** such that $x\in B\subseteq U$. Because $x \in B$ implies $x\in B\subseteq B$, these basis elements $B$ are open, satisfying the forward direction with $V:=B$. &#x2611;
+
+$\Leftarrow$ Let **V**$=\bigcup_{i\in\lambda} V_i$ be a union of open sets such that $\forall x\in U$, $\exists V_i \in$**V** such that $x\in V_i \subseteq U$; **V** may include infinitely many sets or as few as one set, but the guarantee is that **V** covers $U$. It is obvious that **V**$\subseteq U$ because each individual $V_i\subseteq U$. Additionally, $U\subseteq$**V** because every point $x\in U$ has with it an open set $V_i\in$**V** such that $x\in V_i\subseteq U$. Therefore **V**$\subseteq U$ &#38; $U\subseteq$**V** implies $U=$**V**, and because arbitrary unions of open sets are open, **V**$=U$ is open. &#x2611;
+
 
 &#x2611;
