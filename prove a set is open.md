@@ -33,7 +33,7 @@ As an example, in the standard topology, $[0,1]^\circ = (0,1)$ because for all $
 
 In a very intuitive sense, think of these open sets as bubbles. Bubbles are flexible and can feel amorphous sometimes. Anyway, we are fitting these bubbles into strict, confined spaces. The interior is what it looks like when you fit as much bubble in the set as possible. In $[0,1],$ we can fit $(0,1)$ inside $[0,1]$ and no more.
 
-<img src="Images/bubble-in-a-cube.png" alt="circle" width="250"/>
+<img src="Images/bubble-in-a-cube.png" alt="bubble" width="250"/>
 
 ⍟ Finer Topologies ⍟
 
