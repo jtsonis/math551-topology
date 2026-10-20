@@ -22,8 +22,7 @@ Consider $(0,1)$. Neither $0$ nor $1$ are points in this set, however they are l
 
 $\Rightarrow$ If $C$ is closed, then $X-C$ is open by definition. Therefore for every point $p\in X-C$, $\exists U$ open in $X$ such that $p\in U\subseteq X-C$. $U\subseteq X-C$ implies $U\cap C=\varnothing$, therefore $p\not\in C&#2036;$ since $U-\{p\}\subseteq U$ which does not intersect $C$. By $C&#2036;\cap (X-C)=\varnothing$, $C&#2036;\subseteq C$. &#x2611;
 
-$\Leftarrow$ Let $C&#2036;\subseteq C$. Then $X-C\subseteq X-C&#2036;$	
-&#2036; by set theory. Thus for any $p\in X-C$, $p\in X-C&#2036;$ which implies $\exists U$ open in $X$ such that $p\in U$ and $U-\{p\}\cap C\subseteq U\cap C=\varnothing$ (for otherwise, $p$ would be a limit point, i.e. $p\in C&#2036;$). $U\cap C=\varnothing$ means $U\subseteq X-C$, thus $p\in U\subseteq X-C$. Therefore $X-C$ is open, thus $C$ is closed. &#x2611;
+$\Leftarrow$ Let $C&#2036;\subseteq C$. Then $X-C\subseteq X-C&#2036;$ by set theory. Thus for any $p\in X-C$, $p\in X-C&#2036;$ which implies $\exists U$ open in $X$ such that $p\in U$ and $U-\{p\}\cap C\subseteq U\cap C=\varnothing$ (for otherwise, $p$ would be a limit point, i.e. $p\in C&#2036;$). $U\cap C=\varnothing$ means $U\subseteq X-C$, thus $p\in U\subseteq X-C$. Therefore $X-C$ is open, thus $C$ is closed. &#x2611;
 
 ## ⍟ Closures ⍟
 
