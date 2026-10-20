@@ -24,7 +24,10 @@ $\Rightarrow$ If $C$ is closed, then $X-C$ is open by definition. Therefore for 
 
 $\Leftarrow$ Let $C'\subseteq C$. Then $X-C\subseteq X-C'$ by set theory. Thus for any $p\in X-C$, $p\in X-C'$ which implies $\exists U$ open in $X$ such that $p\in U$ and $U-\{p\}\cap C\subseteq U\cap C=\varnothing$ (for otherwise, $p$ would be a limit point, i.e. $p\in C'$). $U\cap C=\varnothing$ means $U\subseteq X-C$, thus $p\in U\subseteq X-C$. Therefore $X-C$ is open, thus $C$ is closed. &#x2611;
 
-&#x2611;
+⍟ Closures ⍟
 
+The closure of a set $A$ is the intersection of all 
 
-&#x2611;
+⍟ Definition ⍟
+
+Recall that arbitrary unions of open sets are open. This leads to arbitrary intersections of closed sets being closed. Similarly, finite intersections of open sets are open, therefore finite unions of closed sets are closed. As a counterexample to the relation holding in other arbitrary cases, the infinite intersection $\bigcap_{n\in\mathbb{N}} (-1/n,1/n)=\{0\}$ which is not open, and the infinite union $\bigcup_{n\in\mathbb{N}}[1/n,3-1/n]=(0,3)$ which is not closed.
