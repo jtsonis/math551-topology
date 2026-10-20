@@ -40,6 +40,8 @@ $\Leftarrow$ Assume that $p\not\in\overline{A}$. Then there exists a closed set 
 
 * _Alternative Proof:_ $p\not\in\overline{A}$ means $p\not\in A$ and $p\not\in A&#2036;$, which implies that there is an open set $U$ such that $p\in U$ and $U\cap A\ne\varnothing$ since $p$ is not a limit point of $A$. &#x2611;
 
+This result is so important that it deserves its own section. Every time you are asked if a point is in the closure or not, always consider open neighborhoods around said point to see whether it intersects the set or not. If all open neighborhoods intersect the set, the point is in the closure; if there is just one counterexample, the point is not in the closure.
+
 ## ⍟ Definition ⍟
 
 Recall that arbitrary unions of open sets are open. This leads to arbitrary intersections of closed sets being closed. Similarly, finite intersections of open sets are open, therefore finite unions of closed sets are closed. As a counterexample to the relation holding in other arbitrary cases, the infinite intersection $\bigcap_{n\in\mathbb{N}} (-1/n,1/n)=\{0\}$ which is not open, and the infinite union $\bigcup_{n\in\mathbb{N}}[1/n,3-1/n]=(0,3)$ which is not closed. Additionally, if $S = \overline S$, or if $\overline S \subseteq S$, then $S$ is closed since the arbitrary intersection of closed sets is closed. If $T_1$ is finer than $T_A$, then if $S$ is closed in $T_A$, then $S$ is closed in $T_1$ (because $X-S$ being open in $T_A$ implies that $X-S$ is open in $T_1$).
