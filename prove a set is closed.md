@@ -28,7 +28,7 @@ $\Leftarrow$ Let $C'\subseteq C$. Then $X-C\subseteq X-C'$ by set theory. Thus f
 
 The closure of a set $A$ in $X$, written as $\bar A$, is the intersection of all closed supersets of $A$. The closure is also defined as $\bar A = A\cup A'$. These definitions are equivalent.
 
-$\Rightarrow$ Let $p$ be a point in the intersection of all closed supersets of $A$, thus for every closed set $C \supseteq A$, $p\in C$. Either $p\in A$, which trivially means $p\in A\cup A'$, or $p\not\in A$. If it is the case that $p\not\in A$ and $p\not\in A'$, then $\exists U$ open in $X$ such that $p\in U$ such that $(U-\{p\})\cap A\subseteq U\cap A=\varnothing$, meaning $p\in U\subseteq X-A$. Since $U$ is open, $X-U$ is closed and $A\subseteq X-U$, meaning that there exists a closed set which does not contain $p$ since $p\in U$, contradicting $p$ being a point in the intersection of all closed sets. Therefore either $p\in A$, or $p\not\in A$ but $p\in A'$. Therefore $p\in A\cap A'$.  &#x2611;
+$\Rightarrow$ Let $p$ be a point in the intersection of all closed supersets of $A$, thus for every closed set $C \supseteq A$, $p\in C$. Either $p\in A$, which trivially means $p\in A\cup A'$, or $p\not\in A$. If it is the case that $p\not\in A$ and $p\not\in A'$, then $\exists U$ open in $X$ such that $p\in U$ such that $(U-\{p\})\cap A\subseteq U\cap A=\varnothing$, meaning $p\in U\subseteq X-A$. Since $U$ is open, $X-U$ is closed and $A\subseteq X-U$, meaning there exists a closed set which does not contain $p$ since $p\in U$, contradicting $p$ being a point in the intersection of all closed sets. Therefore either $p\in A$, or $p\not\in A$ but $p\in A'$. Therefore $p\in A\cap A'$.  &#x2611;
 
 $\Leftarrow$ Let $p\in A\cap A'$. &#x2611;
 
