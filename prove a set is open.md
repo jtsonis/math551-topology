@@ -31,7 +31,7 @@ Let $U^\circ$ be the union of all open sets which are a subset of $U$. This is a
 
 As an example, in the standard topology, $[0,1]^\circ = (0,1)$ because for all $x\in(0,1)$, then $(0,1)$ is open and satisfies $x\in(0,1)\subseteq[0,1]$; $0\not\in[0,1]^\circ$ because there is no basis element $(a,b)$ such that $0\in(a,b)\subseteq[0,1]$ because that would imply $a<0$ and $0\le a$ at the same time; $1\not\in[0,1]^\circ$ because there is no basis element $(c,d)$ such that $1\in(c,d)\subseteq[0,1]$ because that would imply $1<d$ and $d\le 1$ at the same time.
 
-In a very intuitive sense, think of these open sets as bubbles. Bubbles are flexible and can feel amorphous sometimes. Anyway, we are fitting these bubbles into strict, confined spaces. The interior is what it looks like when you fit as much bubble in the set as possible. In $[0,1]$, we can fit $(0,1)$ inside $[0,1]$ and no more.
+In a very intuitive sense, think of these open sets as bubbles. Bubbles are flexible and can feel amorphous sometimes. Anyway, we are fitting these bubbles into strict, confined spaces. The interior is what it looks like when you fit as much bubble in the set as possible. In $[0,1],$ we can fit $(0,1)$ inside $[0,1]$ and no more.
 
 <img src="Images/bubble-in-a-cube.png" alt="circle" width="250"/>
 
