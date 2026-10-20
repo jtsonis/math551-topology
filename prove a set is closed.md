@@ -17,3 +17,5 @@ The formal definition of a limit point $x$ of $A$ is $\forall U$ open with $x\in
 Consider $(0,1)$. Neither $0$ nor $1$ are points in this set, however they are limit points because $0\in(a,b)$ and $(a,b)-\{0\}$ always intersects $(0,1)$ at $(0,\min\{b,1\})$, and $1\in(c,d)$ always intersects at $(\max\{0,a\},1)$. In the below picture, there is an illustration of open sets around $0$ always intersecting the interval $(0,1)$, though it should not be taken literally because open sets in &#8477; look like straight lines, not circles.
 
 <img src="Images/circle-(0,1).png" alt="circle" width="250"/>
+
+* A set $C$ is closed only if it contains all of its limit points, or $C' \subseteq C$.
