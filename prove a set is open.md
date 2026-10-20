@@ -23,7 +23,7 @@ Sadly, all of this is still very abstract. _Are basis elements not easier to use
 
 ⍟ Definition ⍟
 
-First of all, if a set is defined to be in the topology, then it is open. If a set is the arbitrary union of other open sets or is the finite intersection of open sets, then it is open. Consider the finite complement topology, and the set X$-\{p\}$ for some $p\in X$ is open since its complement is finite. If a function $f\colon X\rightarrow Y$ is topologically continuous, and $V$ is open in $Y$, then $f^{-1}(V)$ is open in $X$ by definition. The Hausdorff condition guarantees for two distinct points $x\ne y$ in a Hausdorff space that there exist neighborhoods $U,V$ such that $x\in U$, $y\in V$, $U\cap V=$&#8709;; these neighborhoods $U$ and $V$ are open by definition of the Hausdorff condition.
+First of all, if a set is defined to be in the topology, then it is open. If a set is the arbitrary union of other open sets or is the finite intersection of open sets, then it is open. Consider the finite complement topology, and the set $X-\{p\}$ for some $p\in X$ is open since its complement is finite. If a function $f\colon X\rightarrow Y$ is topologically continuous, and $V$ is open in $Y$, then $f^{-1}(V)$ is open in $X$ by definition. The Hausdorff condition guarantees for two distinct points $x\ne y$ in a Hausdorff space that there exist neighborhoods $U,V$ such that $x\in U$, $y\in V$, $U\cap V=$&#8709;; these neighborhoods $U$ and $V$ are open by definition of the Hausdorff condition.
 
 And that is it! Either a set is open by basic definition, or there is an open subset around every point in said set. Technically, these notions are the same, but different strategies serve different problems better.
 
