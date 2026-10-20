@@ -12,7 +12,7 @@ Consider $[0,1]$ in the standard topology on the real line. The complement of $[
 
 ## ⍟ Limit Points ⍟
 
-The formal definition of a limit point $x$ of $A$ is $\forall U$ open with $x\in U$, $(U-\{x\})\cap A\ne \varnothing$, meaning that every open neighborhood around a point intersects the set $A$ at a *distinct point*. This is written as $x\in A&#2036;$.
+The formal definition of a limit point $x$ of $A$ is $\forall U$ open with $x\in U$, $(U-\{x\})\cap A\ne &#8709;$, meaning that every open neighborhood around a point intersects the set $A$ at a *distinct point*. This is written as $x\in A&#2036;$.
 
 Consider $(0,1)$. Neither $0$ nor $1$ are points in this set, however they are limit points because $0\in(a,b)$ and $(a,b)-\{0\}$ always intersects $(0,1)$ at $(0,\min\{b,1\})$, and $1\in(c,d)$ always intersects at $(\max\{0,a\},1)$. The picture below is an illustration of open sets around $0$ always intersecting the interval $(0,1)$, though it should not be taken literally because open sets in &#8477; look like straight lines, not circles.
 
@@ -20,19 +20,19 @@ Consider $(0,1)$. Neither $0$ nor $1$ are points in this set, however they are l
 
 ## ⍟ (Lemma 2): a set $C$ is closed in $X$ if only if it contains all of its limit points, or $C&#2036; \subseteq C$. ⍟
 
-$\Rightarrow$ If $C$ is closed, then $X-C$ is open by definition. Therefore for every point $p\in X-C$, $\exists U$ open in $X$ such that $p\in U\subseteq X-C$. $U\subseteq X-C$ implies $U\cap C=\varnothing$, therefore $p\not\in C&#2036;$ since $U-\{p\}\subseteq U$ which does not intersect $C$. By $C&#2036;\cap (X-C)=\varnothing$, $C&#2036;\subseteq C$. &#x2611;
+$\Rightarrow$ If $C$ is closed, then $X-C$ is open by definition. Therefore for every point $p\in X-C$, $\exists U$ open in $X$ such that $p\in U\subseteq X-C$. $U\subseteq X-C$ implies $U\cap C=&#8709;$, therefore $p\not\in C&#2036;$ since $U-\{p\}\subseteq U$ which does not intersect $C$. By $C&#2036;\cap (X-C)=&#8709;$, $C&#2036;\subseteq C$. &#x2611;
 
-$\Leftarrow$ Let $C&#2036;\subseteq C$. Then $X-C\subseteq X-C&#2036;$ by set theory. Thus for any $p\in X-C$, $p\in X-C&#2036;$ which implies $\exists U$ open in $X$ such that $p\in U$ and $U-\{p\}\cap C\subseteq U\cap C=\varnothing$ (for otherwise, $p$ would be a limit point, i.e. $p\in C&#2036;$). $U\cap C=\varnothing$ means $U\subseteq X-C$, thus $p\in U\subseteq X-C$. Therefore $X-C$ is open, thus $C$ is closed. &#x2611;
+$\Leftarrow$ Let $C&#2036;\subseteq C$. Then $X-C\subseteq X-C&#2036;$ by set theory. Thus for any $p\in X-C$, $p\in X-C&#2036;$ which implies $\exists U$ open in $X$ such that $p\in U$ and $U-\{p\}\cap C\subseteq U\cap C=&#8709;$ (for otherwise, $p$ would be a limit point, i.e. $p\in C&#2036;$). $U\cap C=&#8709;$ means $U\subseteq X-C$, thus $p\in U\subseteq X-C$. Therefore $X-C$ is open, thus $C$ is closed. &#x2611;
 
 ## ⍟ Closures ⍟
 
 The closure of a set $A$ in $X$, written as $\overline A$, is the intersection of all closed supersets of $A$. The closure is also defined as $\overline A = A\cup A&#2036;$. These definitions are equivalent as is proven below.
 
-$\Rightarrow$ Let $p$ be a point in the intersection of all closed supersets of $A$, thus for every closed set $C \supseteq A$, $p\in C$. Either $p\in A$, which trivially means $p\in A\cup A&#2036;$, or $p\not\in A$. If it is the case that $p\not\in A$ and $p\not\in A&#2036;$, then $\exists U$ open in $X$ such that $p\in U$ such that $(U-\{p\})\cap A\subseteq U\cap A=\varnothing$, meaning $p\in U\subseteq X-A$. Since $U$ is open, $X-U$ is closed and $A\subseteq X-U$, meaning there exists a closed set which does not contain $p$ since $p\in U$, contradicting $p$ being a point in the intersection of all closed supersets of $A$. Therefore either $p\in A$, or $p\not\in A$ but $p\in A&#2036;$. Therefore $p\in A\cap A&#2036;$.  &#x2611;
+$\Rightarrow$ Let $p$ be a point in the intersection of all closed supersets of $A$, thus for every closed set $C \supseteq A$, $p\in C$. Either $p\in A$, which trivially means $p\in A\cup A&#2036;$, or $p\not\in A$. If it is the case that $p\not\in A$ and $p\not\in A&#2036;$, then $\exists U$ open in $X$ such that $p\in U$ such that $(U-\{p\})\cap A\subseteq U\cap A=&#8709;$, meaning $p\in U\subseteq X-A$. Since $U$ is open, $X-U$ is closed and $A\subseteq X-U$, meaning there exists a closed set which does not contain $p$ since $p\in U$, contradicting $p$ being a point in the intersection of all closed supersets of $A$. Therefore either $p\in A$, or $p\not\in A$ but $p\in A&#2036;$. Therefore $p\in A\cap A&#2036;$.  &#x2611;
 
-$\Leftarrow$ Let $p\in A\cap A&#2036;$. Consider any $C\subseteq A$, and recall that $p\in A$ implies $p\in C$. Now let $p\not\in A, p\in A&#2036;$ and assume by way of contradiction that $p\not\in C$. That would mean $\exists U$ open such that $x\in U\subseteq X-C\subseteq X-A$, meaning $U\cap A=\varnothing$. This contradicts $p\in A&#2036;$, therefore $p\in C$. Thus, whether $p\in A$ or $p\not\in A, p\in A&#2036;$ (i.e. $p\in A\cup A&#2036;$), $p$ is in the intersection of all closed supersets of $A$. &#x2611;
+$\Leftarrow$ Let $p\in A\cap A&#2036;$. Consider any $C\subseteq A$, and recall that $p\in A$ implies $p\in C$. Now let $p\not\in A, p\in A&#2036;$ and assume by way of contradiction that $p\not\in C$. That would mean $\exists U$ open such that $x\in U\subseteq X-C\subseteq X-A$, meaning $U\cap A=&#8709;$. This contradicts $p\in A&#2036;$, therefore $p\in C$. Thus, whether $p\in A$ or $p\not\in A, p\in A&#2036;$ (i.e. $p\in A\cup A&#2036;$), $p$ is in the intersection of all closed supersets of $A$. &#x2611;
 
-## ⍟ (Lemma 3): $p \in \overline A$ if and only if $\exists U$ open such that $p\in U$ and U \cap A \ne \varnothing$. ⍟
+## ⍟ (Lemma 3): $p \in \overline A$ if and only if $\exists U$ open such that $p\in U$ and U \cap A \ne &#8709;$. ⍟
 
 ## ⍟ Definition ⍟
 
