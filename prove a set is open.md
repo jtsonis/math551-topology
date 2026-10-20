@@ -25,6 +25,10 @@ Sadly, all of this is still very abstract. _Are basis elements not easier to use
 
 First of all, if a set is defined to be in the topology, then it is open. If a set is the arbitrary union of other open sets or is the finite intersection of open sets, then it is open. Consider the finite complement topology, and the set $X-\{p\}$ for some $p\in X$ is open since its complement is finite. If a function $f\colon X\rightarrow Y$ is topologically continuous, and $V$ is open in $Y$, then $f^{-1}(V)$ is open in $X$ by definition. The Hausdorff condition guarantees for two distinct points $x\ne y$ in a Hausdorff space that there exist neighborhoods $U,V$ such that $x\in U$, $y\in V$, $U\cap V=$&#8709;; these neighborhoods $U$ and $V$ are open by definition of the Hausdorff condition.
 
+⍟ Interiors ⍟
+
+Let $U^\circ$ be the union of all open sets which are a subset of $U$. This is an arbitrary union of open sets so $U^\circ$ is clearly open for all open sets 
+
 And that is it! Either a set is open by basic definition, or there is an open subset around every point in said set. Technically, these notions are the same, but different strategies serve different problems better.
 
 ⍟ Finer Topologies ⍟
@@ -33,24 +37,26 @@ A topology $T_1$ is finer than another topology $T_A$ if every open set in $T_A$
 
 # Example Questions
 
-1. Recall that &#123; $[a,b)\mid a,b \in$ &#8477;&#125; be the basis that generates the lower limit topology on &#8477; and let &#123; $(a,b)\mid a,b \in$ &#8477;&#125; be the basis that generates the standard topology on &#8477;. Prove that $(0,1)$ is open in the lower limit topology. Prove that $[0,1)$ is not open in the standard topology.
+1. In $(X,$**T**$)$, is &#8709; open? Is $X$ open?
+
+2. Recall that &#123; $[a,b)\mid a,b \in$ &#8477;&#125; be the basis that generates the lower limit topology on &#8477; and let &#123; $(a,b)\mid a,b \in$ &#8477;&#125; be the basis that generates the standard topology on &#8477;. Prove that $(0,1)$ is open in the lower limit topology. Prove that $[0,1)$ is not open in the standard topology.
 * All open sets in a topology can be written as the arbitrary union of and/or the finite intersection of other open sets, but that does not always make it the best strategy. For instance, $(0,1)=\bigcup_{i=2}^\infty [1/n,1)$ which is open in the lower limit topology, but *there is an easier proof* to show that $[0,1)$ is open in the lower limit topology by using (Lemma 1).
 * To show that $[0,1)$ is not open in the standard topology, focus on $x = 0$ which might affect the $\forall x\in [0,1)$ criterion from (Lemma 1).
 
-2. Prove that &#8474; is not open. Prove that &#8477; $-$ &#8474; is not open either.
+3. Prove that &#8474; is not open. Prove that &#8477; $-$ &#8474; is not open either.
 
-3. If $X = [0,1) \cup \{2\}$, is $[0,1)$ open in the order topology? Is $[0,1]$? Is $\{2\}$ open?
+4. If $X = [0,1) \cup \{2\}$, is $[0,1)$ open in the order topology? Is $[0,1]$? Is $\{2\}$ open?
 * Recall that the basis for the order topology is all sets $(a,b)$, as well as $[\text{MIN}, a)$ and $(a, \text{MAX}]$.
 
-4. Let $U$ be an open set and let $D$ be a set that is not open. Can $U \cup D$ be open? Can $U \cap D$ be open?
+5. Let $U$ be an open set and let $D$ be a set that is not open. Can $U \cup D$ be open? Can $U \cap D$ be open?
 * Use set theory.
 
-5. Show that if $U$ is open in $X$ and $X - A$ is open in $X$, then $U - A$ is open and $X - (A - U)$ is open.
+6. Show that if $U$ is open in $X$ and $X - A$ is open in $X$, then $U - A$ is open and $X - (A - U)$ is open.
 * Use set theory.
 
-6. Let &#8477; have the standard topology. Write an example of an open set in &#8477; × &#8477; using the product topology. Can you draw it?
+7. Let &#8477; have the standard topology. Write an example of an open set in &#8477; × &#8477; using the product topology. Can you draw it?
 * Recall that the basis for the product topology of $A \times B$ is &#123; $U \times V \mid U \text{ is open in }A, V \text{ is open in }B$ &#125;.
 
-7. Let $\Delta = $ &#123; $(x,x) \mid x \in X$ &#125;. Prove that $X$ is a Hausdorff space if and only if $X\times X - \Delta$ is open using the product topology on $X\times X$.
+8. Let $\Delta = $ &#123; $(x,x) \mid x \in X$ &#125;. Prove that $X$ is a Hausdorff space if and only if $X\times X - \Delta$ is open using the product topology on $X\times X$.
 * Recall that the Hausdorff condition states that for any two distinct points $x\ne y$ in a Hausdorff space $X$, there exist neighborhoods $U,V$ of $x,y$ such that $x\in U$, $y\in V$, and $U\cap V=$&#8709;. These neighborhoods are open by definition.
 * If $A \cap B = \varnothing$ for nonempty subsets $A$ and $B$ of $X$, is $A \cap B \subseteq \Delta$ possible?
