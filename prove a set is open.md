@@ -6,7 +6,7 @@
 
 These definitions feel very abstract at the beginning, but they will feel very familiar with enough practice.
 
-<img src="Images/circle%20photo.png" alt="circle" width="200"/>
+<img src="Images/circle%20photo.png" alt="circle" width="250"/>
 
 In the above image, we let the red space be a set in &#8477;	
 &#178; and we let circles be the basis which generates the topology on the plane. We know that a set is open if for any point, we can fit a basis element around the point and remain in the set. Contrast this with a *boundary point*, where a basis element will always stick out of the open set.
@@ -31,7 +31,9 @@ Let $U^\circ$ be the union of all open sets which are a subset of $U$. This is a
 
 As an example, in the standard topology, $[0,1]^\circ = (0,1)$ because for all $x\in(0,1)$, then $(0,1)$ is open and satisfies $x\in(0,1)\subseteq[0,1]$; $0\not\in[0,1]^\circ$ because there is no basis element $(a,b)$ such that $0\in(a,b)\subseteq[0,1]$ because that would imply $a<0$ and $0\le a$ at the same time; $1\not\in[0,1]^\circ$ because there is no basis element $(c,d)$ such that $1\in(c,d)\subseteq[0,1]$ because that would imply $1<d$ and $d\le 1$ at the same time.
 
-In a very intuitive sense, imagine
+In a very intuitive sense, think of these open sets as bubbles. Bubbles are flexible and can feel amorphous sometimes. Anyway, we are fitting these bubbles into strict, confined spaces. The interior is what it looks like when you fit as much bubble in the set as possible. In $[0,1]$, we can fit $(0,1)$ inside $[0,1]$ and no more.
+
+<img src="Images/bubble-in-a-cube.png" alt="circle" width="250"/>
 
 ⍟ Finer Topologies ⍟
 
@@ -66,6 +68,5 @@ And that is it! Either a set is open by basic definition, or there is an open su
 * If $A \cap B = \varnothing$ for nonempty subsets $A$ and $B$ of $X$, is $A \cap B \subseteq \Delta$ possible?
 
 9. Prove that $U^\circ = U$ if and only if $U$ is open.
-* Consider that if $U^\circ \ne U$
 
-If $x\in U$ and $U$ is open, then there is a $V$ open with $x\in V\subseteq U$, but that means $V$ is in the union of open subsets of $U$ so $x\in $
+10. Describe all of the open sets in the discrete topology. Describe all of the open sets in the indiscrete topology.
