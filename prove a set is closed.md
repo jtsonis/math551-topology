@@ -32,6 +32,14 @@ $\Rightarrow$ Let $p$ be a point in the intersection of all closed supersets of 
 
 $\Leftarrow$ Let $p\in A\cap A&#2036;$. Consider any $C\subseteq A$, and recall that $p\in A$ implies $p\in C$. Now let $p\not\in A, p\in A&#2036;$ and assume by way of contradiction that $p\not\in C$. That would mean $\exists U$ open such that $x\in U\subseteq X-C\subseteq X-A$, meaning $U\cap A=\varnothing$. This contradicts $p\in A&#2036;$, therefore $p\in C$. Thus, whether $p\in A$ or $p\not\in A, p\in A&#2036;$ (i.e. $p\in A\cup A&#2036;$), $p$ is in the intersection of all closed supersets of $A$. &#x2611;
 
+## ⍟ (Lemma 3): $p \in \overline A$ if and only if $\exists U$ open such that $p\in U$ and U \cap A \ne \varnothing$. ⍟
+
 ## ⍟ Definition ⍟
 
-Recall that arbitrary unions of open sets are open. This leads to arbitrary intersections of closed sets being closed. Similarly, finite intersections of open sets are open, therefore finite unions of closed sets are closed. As a counterexample to the relation holding in other arbitrary cases, the infinite intersection $\bigcap_{n\in\mathbb{N}} (-1/n,1/n)=\{0\}$ which is not open, and the infinite union $\bigcup_{n\in\mathbb{N}}[1/n,3-1/n]=(0,3)$ which is not closed.
+Recall that arbitrary unions of open sets are open. This leads to arbitrary intersections of closed sets being closed. Similarly, finite intersections of open sets are open, therefore finite unions of closed sets are closed. As a counterexample to the relation holding in other arbitrary cases, the infinite intersection $\bigcap_{n\in\mathbb{N}} (-1/n,1/n)=\{0\}$ which is not open, and the infinite union $\bigcup_{n\in\mathbb{N}}[1/n,3-1/n]=(0,3)$ which is not closed. Additionally, if $S = \overline S$, or if $\overline S \subseteq S$, then $S$ is closed since the arbitrary intersection of closed sets is closed. If $T_1$ is finer than $T_A$, then if $S$ is closed in $T_A$, then $S$ is closed in $T_1$ (because $X-S$ being open in $T_A$ implies that $X-S$ is open in $T_1$).
+
+## ⍟ Note on Topological Continuity ⍟
+
+As one final note, if a function $f\colon X\rightarrow Y$ is topologically continuous, then $f^{-1}(C)$ is closed in $X$ for all $C$ closed in $Y$. This is _not_ the definition of topological continuity, but it follows from it: recall that $f^{-1}(V)$ is open in $X$ for all $V$ open in $Y$ by definition of topological continuity. This means that if $C$ is closed in $Y$, then $f^{-1}(Y-C)$ is open in $X$ because $Y-C$ is open in $Y$. Consider the closure $\overline{f^{-1}(C)}$ in $X$ and let $x\in\overline{f^{-1}(C)}$. 
+
+&#x2611;
