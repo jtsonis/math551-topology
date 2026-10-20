@@ -20,7 +20,7 @@ Consider $(0,1)$. Neither $0$ nor $1$ are points in this set, however they are l
 
 ⍟ (Lemma 2): a set $C$ is closed in $X$ if only if it contains all of its limit points, or $C' \subseteq C$. ⍟
 
-$\Rightarrow$ If $C$ is closed, then $X-C$ is open by definition. Therefore for every point $p\in X-C$, $\exists U$ open in $X$ such that $p\in U\subseteq X-C$. $U\subseteq X-C$ implies $U\cap C=\varnothing$, therefore $p\not\in C'$ since $U-\{p\}\subseteq U$ which does not intersect $C$. None of the points in $X-C$ are in $C'$, thus $C'\subseteq C$. &#x2611;
+$\Rightarrow$ If $C$ is closed, then $X-C$ is open by definition. Therefore for every point $p\in X-C$, $\exists U$ open in $X$ such that $p\in U\subseteq X-C$. $U\subseteq X-C$ implies $U\cap C=\varnothing$, therefore $p\not\in C'$ since $U-\{p\}\subseteq U$ which does not intersect $C$. By $C'\cap (X-C)=\varnothing$, $C'\subseteq C$. &#x2611;
 
 $\Leftarrow$ Let $C'\subseteq C$. Then $X-C\subseteq X-C'$ by set theory. Thus for any $p\in X-C$, then $p\in X-C'$ which implies $\exists U$ open in $X$ such that $p\in U$ and $U-\{p\}\cap C\subseteq U\cap C=\varnothing$ (for otherwise, $p$ would be a limit point, i.e. $p\in C'$). $U\cap C=\varnothing$ means $U\subseteq X-C$, thus $p\in U\subseteq X-C$. Therefore $X-C$ is open, thus $C$ is closed. &#x2611;
 
