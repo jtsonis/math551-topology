@@ -32,7 +32,13 @@ $\Rightarrow$ Let $p$ be a point in the intersection of all closed supersets of 
 
 $\Leftarrow$ Let $p\in A\cap A&#2036;$. Consider any $C\subseteq A$, and recall that $p\in A$ implies $p\in C$. Now let $p\not\in A, p\in A&#2036;$ and assume by way of contradiction that $p\not\in C$. That would mean $\exists U$ open such that $x\in U\subseteq X-C\subseteq X-A$, meaning $U\cap A=\varnothing$. This contradicts $p\in A&#2036;$, therefore $p\in C$. Thus, whether $p\in A$ or $p\not\in A, p\in A&#2036;$ (i.e. $p\in A\cup A&#2036;$), $p$ is in the intersection of all closed supersets of $A$. &#x2611;
 
-## ⍟ (Lemma 3): $p \in \overline A$ if and only if $\exists U$ open such that $p\in U$ and U \cap A \ne \varnothing$. ⍟
+## ⍟ (Lemma 3): $p \in \overline A$ if and only if $\forall U$ open such that $p\in U$, $U \cap A \ne \varnothing$. ⍟
+
+$\Rightarrow$ Assume that there exists an open $U$ such that $p\in U$ and $U\cap A = \varnothing$. Then $A\subseteq X-U$ where $X-U$ is closed, meaning $\overline{A}\subseteq X-U$ since $X-U$ is included in the intersection of all closed supersets of $A$. Therefore $p \in U$ implies $p\not\in X-U$ and thus $p\not\in \overline{A}$. The contrapositive of this result is that $p\in \overline{A}$ implies that $\forall U$ open such that $p\in U$ and $U\cap A\ne\varnothing$. &#x2611;
+
+$\Leftarrow$ Assume that $p\not\in\overline{A}$. Then there exists a closed set $C \supseteq A$ such that $p\not\in C$ (for otherwise, $p$ would be in the intersection of all closed supersets of $A$ which is $\overline{A}$). Then $p\in X-C$ which is an open set, thus there exists an open set $U$ such that $p\in U\subseteq X-C$. Therefore $U\cap C=\varnothing$, meaning that $U\cap A\subseteq U\cap C=\varnothing$. The contrapositive of this result is that if all open sets containing $p$ intersect $A$, then $p\in\overline A$. &#x2611;
+
+* _Alternative Proof:_ $p\not\in\overline{A}$ means $p\not\in A$ and $p\not\in A&#2036;$, which implies that there is an open set $U$ such that $p\in U$ and $U\cap A\ne\varnothing$ since $p$ is not a limit point of $A$. &#x2611;
 
 ## ⍟ Definition ⍟
 
