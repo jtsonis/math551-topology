@@ -53,6 +53,8 @@ As one final note, if a function $f\colon X\rightarrow Y$ is topologically conti
 # Example Questions
 1. Is $\pi$ a limit point for &#8474; in the standard topology on &#8477;?
 2. Prove that $A\subseteq B$ implies $\overline A \subseteq \overline B$.
-3. Find a set $C$ where $C\subsetq C&#2036;$.
+3. Find a set $C$ where $C\subseteq C&#2036;$.
 4. Prove that the closure of $A\cup B$ equals $\overline A \cup \overline B$.
-5. Consider the infinite union $\bigcup (1/n,2)$. Is the closure of this union equal to the union $\bigcup \overline{(1/n,2)}$?
+5. Consider the infinite union $\bigcup (1/n,2)$. Is the union of closures of sets equal to the closure of the union of sets?
+6. Prove that the closure of $A \cap B$ is a subset of $\overline A \cap \overline B$.
+7. Calculate $\overline{&#8477;}$, $\overline{&#8474;}$, and $&#8477; - &#8474;$.
