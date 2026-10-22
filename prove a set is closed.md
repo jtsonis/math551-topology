@@ -60,3 +60,4 @@ As one final note, if a function $f\colon X\rightarrow Y$ is topologically conti
 7. Calculate $\overline{&#8477;}$, $\overline{&#8474;}$, and the closure of $&#8477; - &#8474;$ in the standard topology.
 8. Using the lower limit topology, calculate the closure of $(0,1)$.
 9. Using the finite complement topology, calculate the closure of $(0,1)$.
+10. Prove that the closure of $A\times B$ is equal to $\overline A \times \overline B$.
