@@ -51,7 +51,7 @@ Recall that arbitrary unions of open sets are open. This leads to arbitrary inte
 As one final note, if a function $f\colon X\rightarrow Y$ is topologically continuous, then $f^{-1}(C)$ is closed in $X$ for all $C$ closed in $Y$. This is _not_ the definition of topological continuity, but it follows from it: let $p$ be a point in the closure of $f^{-1}(C)$ in $X$, and let $V$ be an open neighborhood around $f(p)$. Then $p\in f^{-1}(V)$ which is open by topological continuity. By (Lemma 3) from $p$ being in the closure of $f^{-1}(C)$, the intersection $f^{-1}(V)\cap f^{-1}(C)\ne\varnothing$. Let $y\in f^{-1}(V)\cap f^{-1}(C)$. Then $f(y)\in V\cap C$, therefore $f(V)$ intersects $C$ which means $f(p)\in \overline{C}=C$ (because $C$ is closed), thus $p\in f^{-1}(C)$. Therefore the closure of $f^{-1}(C)$ is a subset of $f^{-1}(C)$, and $f^{-1}(C)$ is a subset of its own closure, therefore $f^{-1}(C)$ is closed whenever $C$ is closed in $Y$. &#x2611;
 
 # Example Questions
-1. Is $\pi$ a limit point for &#8474; in the standard topology on &#8477;?
+1. Is $\pi$ a limit point of &#8474; in the standard topology on &#8477;?
 2. Prove that $A\subseteq B$ implies $\overline A \subseteq \overline B$.
 3. Find a set $C$ where $C\subseteq C&#2036;$.
 4. Prove that the closure of $A\cup B$ equals $\overline A \cup \overline B$.
