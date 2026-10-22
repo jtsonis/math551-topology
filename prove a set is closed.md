@@ -61,3 +61,4 @@ As one final note, if a function $f\colon X\rightarrow Y$ is topologically conti
 8. Using the lower limit topology, calculate the closure of $(0,1)$.
 9. Using the finite complement topology, calculate the closure of $(0,1)$.
 10. Prove that the closure of $A\times B$ is equal to $\overline A \times \overline B$.
+* Hint: $(U \times V) \cap (A \times B) = (U \cap A) \times (V \cap B)$.
