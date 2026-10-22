@@ -57,4 +57,6 @@ As one final note, if a function $f\colon X\rightarrow Y$ is topologically conti
 4. Prove that the closure of $A\cup B$ equals $\overline A \cup \overline B$.
 5. Consider the infinite union $\bigcup (1/n,2)$. Is the union of closures of sets equal to the closure of the union of sets?
 6. Prove that the closure of $A \cap B$ is a subset of $\overline A \cap \overline B$.
-7. Calculate $\overline{&#8477;}$, $\overline{&#8474;}$, and $\overline{&#8477; - &#8474;}$.
+7. Calculate $\overline{&#8477;}$, $\overline{&#8474;}$, and the closure of $&#8477; - &#8474;$ in the standard topology.
+8. Using the lower limit topology, calculate the closure of $(0,1)$.
+9. Using the finite complement topology, calculate the closure of $(0,1)$.
