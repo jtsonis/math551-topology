@@ -11,7 +11,7 @@ These are the answers to each question regarding the product topology:
 * $f(t)$ is continuous because each coordinate function $f_n(t)=n\cdot t$ is continuous.
 * $g(t)$ is continuous because each coordinate function $g_n(t)=t$ is continuous.
 * $h(t)$ is continuous because each coordinate function $h_n(t)=t/n$ is continuous.
-* $\vec{w}$ converges to $\vec{0}$ because the $n$th coordinate of $w_k$ equals $0$ for all $k>n$.
-* $\vec{x}$ converges to $\vec{0}$ because the $n$th coordinate of $x_k$ equals $0$ for all $k>n$.
-* Regarding $\vec{y}$, $\forall \varepsilon>0$, there exists a $N\in\mathbb{N}$ such that $N>1/\varepsilon$, leading to the $n$th coordinate of $|y_k|\le\max\{0,1/k\}<1/N<\varepsilon$ for all $k>N$. Therefore each coordinate converges to $0$ and $\vec{y}$ converges to $\vec{0}$.
+* $\vec{w}$ converges to $\vec{0}$ because the *n*'th coordinate of $w_k$ equals $0$ for all $k>n$.
+* $\vec{x}$ converges to $\vec{0}$ because the *n*'th coordinate of $x_k$ equals $0$ for all $k>n$.
+* Regarding $\vec{y}$, $\forall \varepsilon>0$, there exists a $N\in\mathbb{N}$ such that $N>1/\varepsilon$, leading to the *n*'th coordinate of $|y_k|\le\max\{0,1/k\}<1/N<\varepsilon$ for all $k>N$. Therefore each coordinate converges to $0$ and $\vec{y}$ converges to $\vec{0}$.
 * The first and second coordinates of $\vec{z}$ converge to $0$ since $1/n$ converges to $0$, and the other coordinates equal $0$. Therefore $\vec{z}$ converges to $\vec{0}$.
