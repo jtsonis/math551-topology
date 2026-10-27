@@ -24,6 +24,7 @@ It is possible for a function to be continuous in the box topology, and that hap
 
 * $f(t)=(t,2t,3t,\dots)$ is not continuous because for $x = 7$, let $B=\displaystyle\prod (7n-1/n, 7n+1/n)$. $f(7)\in B$, but for all $p\ne 0$, $f_n(7+p)=n(7+p)\not\in (7n-1/n,7n+1/n)$ for all $n > \sqrt{|1/p|}$. Therefore $f^{-1}(B) = \{7\}$ which is closed in $&#8477;$, proving that $f$ is not continuous.
 * $g(t)=(t,t,t,\dots)$ is not continuous because for $x = -401$, let $B=\displaystyle\prod (-401-\sqrt{1/n},-401+\sqrt{1/n})$. $g(-401)\in B$, but for all $p\ne 0$, $f_n(-401+p)=-401+p\not\in(-401-\sqrt{1/n},-401+\sqrt{1/n})$ for all $n > 1/p^2$. Thus $g^{-1}(B)=\{-401\}$ which is not open, proving that $g$ is not continuous.
+* $h(t)=(t,\frac{1}{2}t,\frac{1}{3}t,\dots)$ is not continuous because for $x=0$, let $B=\displaystyle\prod (-1/n^{100},1/n^{100})$. $h(0)\in B$, but for all $p\ne 0$, $f_n(p)=\frac{p}{n}\not\in(-1/n^{100},1/n^{100})$ for all $n > (1/p)^{1/99}$. Thus $h^{-1}(B)=\{0\}$ which is not open, proving that $h$ is not continuous.
 
 ## Continuity in the Uniform Topology
 
