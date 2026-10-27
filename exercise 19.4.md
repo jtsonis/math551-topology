@@ -41,7 +41,7 @@ A function $f\colon &#8477;\rightarrow &#8477;^\omega$ is continuous in the unif
 * $w_k$ does not converge. Each coordinate function converges to $0$, and $0\in\displaystyle\prod (-1,1)$ which is open yet the *n*th coordinate of $w_n$ falls outside of $(-1,1)$ for all $n>1$.
 * $x_k$ does not converge. Each coordinate function converges to $0$, and $0\in\displaystyle\prod (-\frac{1}{2n},\frac{1}{2n})$ yet the *n*th coordinate of $x_n$ falls outside of $(-\frac{1}{2n},\frac{1}{2n})$ for all $n$.
 * $y_k$ does not converge. Same proof as $x_k$.
-* $z_k$ does converge! For all open sets $U_1\times U_2\times\cdots$ containing $\vec{0}$, there exists $N,M\in &#8469;$ such that ${1/n} \in U_1$ and ${1/n} \in M$ for all $n > \max(N,M)$. The other coordinates are all 0 anyway. 
+* $z_k$ does converge! For all open sets $U_1\times U_2\times\cdots$ containing $\vec{0}$, there exists $N,M\in &#8469;$ such that ${1/n} \in U_1$ and ${1/n} \in U_2$ for all $n > \max(N,M)$. The other coordinates are all 0 anyway. 
 
 > Note that for $z_k$, only the set around the 1st coordinate and the set around the 2nd coordinate matter.
 
