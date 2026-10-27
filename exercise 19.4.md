@@ -54,4 +54,4 @@ The distance between points in the uniform topology is based on the supremum of 
 * $x_k$ converges to $\vec{0}$ because $\forall\varepsilon>0$, $N > 1/\varepsilon$ means $n > N$ implies $\overline{\rho}(x_n,0) < |1/n| < \varepsilon$.
 * $y_k$ and $z_k$ have the same proof as $x_k$.
 
-$\qed$
+$\blacksquare$
