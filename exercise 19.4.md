@@ -4,7 +4,7 @@
 
 This one exercise technically contains 21 problems, which can be very overwhelming. Here is an explanation behind every one of them.
 
-> Everything below is in $\mathbb{R}^\omega$.
+### **EVERYTHING BELOW IS ABOUT TUPLES OF REAL NUMBERS!**
 
 ## Continuity & Convergence in the Product Topology
 Theorem 19.6 states that a function in the product topology is continuous if and only if each coordinate function is continuous. Likewise, Exercise 19.6 proves that a sequence is continuous in the product topology if and only if each coordinate's sequence is continuous. When working with the product topology, go coordinate by coordinate.
@@ -20,7 +20,7 @@ These are the answers to each question regarding the product topology:
 
 ## Continuity in the Box Topology
 
-It is possible for a function to be continuous in the box topology, and that happens when all but finitely many terms are constant (and that should be easy to prove). Every other function is not continuous! Here is the strategy: fix $x \in \mathbb{R}$ and let $B=\displaystyle\prod_{n = 1}^\infty (f_n(x)-1/n,f_n(x)+1/n)$, which is a basis element in the box topology by Theorem 
+It is possible for a function to be continuous in the box topology, and that happens when all but finitely many terms are constant (and that should be easy to prove). Every other function is not continuous! Here is the strategy: fix $x \in &#8477;$ and let $B=\displaystyle\prod_{n = 1}^\infty (f_n(x)-1/n,f_n(x)+1/n)$, which is a basis element in the box topology by Theorem 
 
 ## Continuity in the Uniform Topology
 
