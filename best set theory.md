@@ -1,6 +1,6 @@
 # Set Theory for Topology
 
-The proofs follow after the results. Remember "iff" is an abbreviation "if and only if."
+The proofs follow after the results. Remember "iff" is an abbreviation "if and only if." Unless stated otherwise, all sets are subsets of $X$ which is the ambient space.
 
 ## Results
 
