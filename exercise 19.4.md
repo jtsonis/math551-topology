@@ -15,12 +15,14 @@ These are the answers to each question regarding the product topology:
 * $h(t)$ is continuous because each coordinate function $h_n(t)=t/n$ is continuous.
 * $\vec{w}$ converges to $\vec{0}$ because the *n*'th coordinate of $w_k$ equals $0$ for all $k>n$.
 * $\vec{x}$ converges to $\vec{0}$ because the *n*'th coordinate of $x_k$ equals $0$ for all $k>n$.
-* Regarding $\vec{y}$, $\forall \varepsilon>0$, there exists a $N\in\mathbb{N}$ such that $N>1/\varepsilon$, leading to the *n*'th coordinate of $|y_k|\le\max\{0,1/k\}<1/N<\varepsilon$ for all $k>N$. Therefore each coordinate converges to $0$ and $\vec{y}$ converges to $\vec{0}$.
+* Regarding $\vec{y}$, $\forall \varepsilon>0$, there exists a $N\in &#8469;$ such that $N>1/\varepsilon$, leading to the *n*'th coordinate of $|y_k|\le\max\{0,1/k\}<1/N<\varepsilon$ for all $k>N$. Therefore each coordinate converges to $0$ and $\vec{y}$ converges to $\vec{0}$.
 * The first and second coordinates of $\vec{z}$ converge to $0$ since $1/n$ converges to $0$, and the other coordinates equal $0$. Therefore $\vec{z}$ converges to $\vec{0}$.
 
 ## Continuity in the Box Topology
 
-It is possible for a function to be continuous in the box topology, and that happens when all but finitely many terms are constant (and that should be easy to prove). Every other function is not continuous! Here is the strategy: fix $x \in &#8477;$ and let $B=\displaystyle\prod_{n = 1}^\infty (f_n(x)-1/n,f_n(x)+1/n)$, which is a basis element in the box topology by Theorem 
+It is possible for a function to be continuous in the box topology, and that happens when all but finitely many terms are constant (and that should be easy to prove). Every other function is not continuous! Here is the strategy: fix $x \in &#8477;$ and let $B=\Sigma (f_n(x)-1/n,f_n(x)+1/n)$ or some other decreasing function $\epsilon_n$ which converges to 0, and Theorem 19.2 confirms that $B$ is a basis element. Obviously, $f_n(x) \in (f_n(x)-1/n,f_n(x)+1/n)$ for all $n$ so $f(x) \in B$. For every other $f(x+p)$ given $p\in(-\delta,\delta)$ for a $\delta>0$, there exists an $n$ such that $f_n(x+p)\not\in (f_n(x)-1/n,f_n(x+p)+1/n)$ which leads to $f^{-1}(B)=\{x\}$ which is not open, proving that $f$ is not continuous.
+
+* $f(t)=(t,2t,3t,\dots)$ is not continuous because for $x = 7$, let $B=\Sigma (7n-1/n, 7n+1/n)$. $f(7)\in B$, but for all $p\ne 0$, $f_n(7+p)=n(7+p)\not\in (7n-1/n,7n+1/n)$ for all $n > \sqrt{|2/p|}$. Therefore $f^{-1}(B) = \{7\}$ which is closed in $\mathbb{R}$, proving that $f$ is not continuous.
 
 ## Continuity in the Uniform Topology
 
