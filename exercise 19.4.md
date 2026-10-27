@@ -36,4 +36,13 @@ A function $f\colon &#8477;\rightarrow &#8477;^\omega$ is continuous in the unif
 
 ## Convergence in the Box Topology
 
+> Note that a function is continuous in the box topology *only if* each coordinate function is continuous, so pay attention to that.
+
+* $w_k$ does not converge. Each coordinate function converges to $0$, and $0\in\displaystyle\prod (-1,1)$ which is open yet the *n*th coordinate of $w_n$ falls outside of $(-1,1)$ for all $n>1$.
+* $x_k$ does not converge. Each coordinate function converges to $0$, and $0\in\displaystyle\prod (-\frac{1}{2n},\frac{1}{2n})$ yet the *n*th coordinate of $w_n$ falls outside of $(-\frac{1}{2n},\frac{1}{2n})$ for all $n$.
+* $y_k$ does not converge. Same proof as $x_k$.
+* $z_k$ does converge! For all open sets $U$ with $0\in U$, there exists an $N\in &#8469;$ such that $1/n \in U$ for $n>N$, since $1/n$ can be arbitrarily small.
+
+> Note that for $z_k$, only the set around the 1st coordinate and the set around the 2nd coordinate matter.
+
 ## Convergence in the Uniform Topology
