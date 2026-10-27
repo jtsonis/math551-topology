@@ -28,7 +28,7 @@ It is possible for a function to be continuous in the box topology, and that hap
 
 ## Continuity in the Uniform Topology
 
-A function $f\colon &#8477;\rightarrow &#8477;^\omega$ is continuous in the uniform topology (on the reals) if $\forall\varepsilon>0$, $\exists\delta>0$ such that $|x-y|<\delta$ implies $\bar\rho(f(x),f(y))<\varepsilon$.
+A function $f\colon &#8477;\rightarrow &#8477;^\omega$ is continuous in the uniform topology (on the reals) if $\forall\varepsilon>0$, $\exists\delta>0$ such that $|x-y|<\delta$ implies $\bar\rho(f(x),f(y))<\varepsilon$. A function is not continuous if there exists a ball $B(x,\varepsilon/2)$ whose preimage is $\{x\}$.
 
 Recall that $\bar\rho(x,y) \le 1$.
 
