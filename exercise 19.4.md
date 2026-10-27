@@ -20,9 +20,9 @@ These are the answers to each question regarding the product topology:
 
 ## Continuity in the Box Topology
 
-It is possible for a function to be continuous in the box topology, and that happens when all but finitely many terms are constant (and that should be easy to prove). Every other function is not continuous! Here is the strategy: fix $x \in &#8477;$ and let $B=\Pi (f_n(x)-1/n,f_n(x)+1/n)$ or some other decreasing function $\epsilon_n$ which converges to 0, and Theorem 19.2 confirms that $B$ is a basis element. Obviously, $f_n(x) \in (f_n(x)-1/n,f_n(x)+1/n)$ for all $n$ so $f(x) \in B$. For every other $f(x+p)$ given $p\in(-\delta,\delta)$ for a $\delta>0$, there exists an $n$ such that $f_n(x+p)\not\in (f_n(x)-1/n,f_n(x+p)+1/n)$ which leads to $f^{-1}(B)=\{x\}$ which is not open, proving that $f$ is not continuous.
+It is possible for a function to be continuous in the box topology, and that happens when all but finitely many terms are constant (and that should be easy to prove). Every other function is not continuous! Here is the strategy: fix $x \in &#8477;$ and let $B=\displaystyle\prod (f_n(x)-1/n,f_n(x)+1/n)$ or some other decreasing function $\epsilon_n$ which converges to 0, and Theorem 19.2 confirms that $B$ is a basis element. Obviously, $f_n(x) \in (f_n(x)-1/n,f_n(x)+1/n)$ for all $n$ so $f(x) \in B$. For every other $f(x+p)$ given $p\in(-\delta,\delta)$ for a $\delta>0$, there exists an $n$ such that $f_n(x+p)\not\in (f_n(x)-1/n,f_n(x+p)+1/n)$ which leads to $f^{-1}(B)=\{x\}$ which is not open, proving that $f$ is not continuous.
 
-* $f(t)=(t,2t,3t,\dots)$ is not continuous because for $x = 7$, let $B=\Pi (7n-1/n, 7n+1/n)$. $f(7)\in B$, but for all $p\ne 0$, $f_n(7+p)=n(7+p)\not\in (7n-1/n,7n+1/n)$ for all $n > \sqrt{|2/p|}$. Therefore $f^{-1}(B) = \{7\}$ which is closed in $\mathbb{R}$, proving that $f$ is not continuous.
+* $f(t)=(t,2t,3t,\dots)$ is not continuous because for $x = 7$, let $B=\displaystyle\prod (7n-1/n, 7n+1/n)$. $f(7)\in B$, but for all $p\ne 0$, $f_n(7+p)=n(7+p)\not\in (7n-1/n,7n+1/n)$ for all $n > \sqrt{|2/p|}$. Therefore $f^{-1}(B) = \{7\}$ which is closed in $\mathbb{R}$, proving that $f$ is not continuous.
 
 ## Continuity in the Uniform Topology
 
