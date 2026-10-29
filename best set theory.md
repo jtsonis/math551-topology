@@ -13,6 +13,8 @@ The proofs follow after the results. Remember "iff" is an abbreviation "if and o
 * [7] $U \subseteq V$ implies $g^{-1}(U) \subseteq g^{-1}(V)$.
 * [8] $g^{-1}(U \cap V) = g^{-1}(U) \cap g^{-1}(V)$.
 * [9] $g^{-1}(U\cup V)=g^{-1}(U)\cup g^{-1}(V)$.
+* [10] The composition of injective functions is injective.
+* [11] The composition of surjective functions is surjective.
 
 ## Proofs
 
@@ -27,3 +29,5 @@ The proofs follow after the results. Remember "iff" is an abbreviation "if and o
 * [7] If $x\in g^{-1}(U)$, then $g(x)\in U\subseteq V$, therefore $x\in g^{-1}(V)$.
 * [8] If $x\in g^{-1}(U \cap V)$, then $g(x)\in U\cap V$, thus $g(x)\in U$ and $g(x)\in V$, therefore $x\in g^{-1}(U)$ and $x\in g^{-1}(V)$ so $x\in g^{-1}(U)\cap g^{-1}(V)$. If $x\in g^{-1}(U)\cap g^{-1}(V)$, then $x\in g^{-1}(U)$ so $g(x)\in U$ and $x\in g^{-1}(V)$ so $g(x)\in V$, thus $g(x)\in U\cap V$ and $x\in g^{-1}(U\cap V)$.
 * [9] If $x\in g^{-1}(U\cup V)$, then $g(x)\in U\cup V$, so $g(x)\in U$ implies $x\in g^{-1}(U)\subseteq g^{-1}(U)\cup g^{-1}(V)$, and $g(x)\not\in U$ means $g(x)\in V$ so $x\in g^{-1}(V)\subseteq g^{-1}(U) \cup g^{-1}(V)$. If $x\in g^{-1}(U)\cup g^{-1}(V)$, then either $x\in g^{-1}(U)\subseteq g^{-1}(U\cup V)$ or $x\not\in g^{-1}(U)$ so $x\in g^{-1}(V)\subseteq g^{-1}(U\cup V)$.
+* [10] Let $f:A\rightarrow B$ and $g:B\rightarrow C$ be injective. If $(g\circ f)(x)=(g\circ f)(y)$, the injectivity of $g$ means $f(x)=f(y)$, and the injectivity of $f$ means $x=y$, therefore $(g\circ f)(x)=(g\circ f)(y)$ implies $x=y$ so $g\circ f$ is injective.
+* [11] Let $f:A\rightarrow B$ and $g:B\rightarrow C$ be surjective. If $z\in C$, $\exists y \in B$ such that $g(y) = z$ by the surjectivity of $g$, and $\exists x\in A$ such that $f(x) = y$ by the surjectivity of $f$, therefore $(g\circ f)(x) = z$. Since $z$ was arbitrary in $C$, $(g\circ f)$ is surjective.
