@@ -2,7 +2,7 @@
 
 **Recall:** a topological space $X$ is a Hausdorff space if it satisfies the Hausdorff condition, meaning for all distinct $x,y\in X$, $\exists U,V$ open such that $x\in U$, $y\in V$, $U\cap V=\varnothing$.
 
-
+## ⍟ (Lemma 4) ⍟
 
 ## ⍟ The Standard Topology on the Reals is Hausdorff ⍟
 Without loss of generality, let $x<y$ be distinct points in ℝ. Their average $z:=(x+y)/2$ satisfies $x<z<y$, thus $x\in(-\infty,z)$, $y\in(z,\infty)$, and $(-\infty,z)\cap (z,\infty)=\varnothing$, satisfying the Hausdorff condition. ☑
