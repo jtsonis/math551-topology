@@ -18,5 +18,10 @@ Let $x$ and $y$ be distinct points in the discrete topology and the singletons $
 Recall that the indiscrete topology on a set $X$ is &#123; $X,\varnothing$ &#125; so the only open set available to contain two disjoint points is $X$, and $X\cap X=X\ne\varnothing$, so the indiscrete topology cannot satisfy the Hausdorff condition. ☑
 
 # Example Questions
-1. The $T_1$ axiom states that all finite point sets are closed. Prove that if $X$ is Hausdorff, then $X$ satisfies the $T_1$ axiom.
+1. Prove that all order topologies are Hausdorff.
+* HINT: if $x\ne y$, either $\exists z$ such that $x<z<y$ or $(x,y)=\varnothing$, and these cases have to be examined separately.
+2. Prove that the product of two Hausdorff spaces is Hausdorff.
+3. Prove that a subspace of a Hausdorff space is Hausdorff.
+4. Let $\Delta = $
+4. The $T_1$ axiom states that all finite point sets are closed. Prove that if $X$ is Hausdorff, then $X$ satisfies the $T_1$ axiom.
 * HINT: prove that singletons are closed in Hausdorff spaces, which generalizes to finite point sets since the finite union of closed sets is closed.
