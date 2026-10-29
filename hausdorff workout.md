@@ -3,7 +3,8 @@
 **Recall:** a topological space $X$ is a Hausdorff space if it satisfies the Hausdorff condition, meaning for all distinct $x,y\in X$, $\exists U,V$ open such that $x\in U$, $y\in V$, $U\cap V=\varnothing$.
 
 ## ⍟ (Lemma 4) The Hausdorff Condition Generalizes to $n$ Distinct Elements ⍟
-The $n=2$ case follows by definition. Let $n=3$, and let $a,b,c$ be distinct elements in $X$. By the Hausdorff condition, there exist open sets $U_{ab},V_{ba}$ such that $a\in U_{ab}$, $b\in V_{ba}$, and $U_{ab}\cap V_{ba}=\varnothing$.
+The $n=2$ case follows by definition. Let $n=3$, and let $a,b,c$ be distinct elements in $X$. By the Hausdorff condition, there exist open sets $U_{ab},V_{ba}$ such that $a\in U_{ab}$, $b\in V_{ba}$, and $U_{ab}\cap V_{ba}=\varnothing$, and there exist open sets $U_{ac}, V_{ca}$ such that $a\in U_{ac}$, $c\in V_{ca}$, and $U_{ac}\cap V_{ca}=\varnothing$, and there exist open sets $U_{bc}, V_{cb}$ such that $b\in U_{bc}$, $c\in V_{cb}$, and $U_{bc}\cap V_{cb}=\varnothing$. The intersection of open sets is open, and the sets $A:= U_{ab}\cap U_{ac}$, $B:= V_{ba}\cap U_{bc}$, $C:= V_{ca}\cap V_{cb}$ are open sets such that $a\in A$, $b\in B$, and $c\in C$. $A\cap B = (U_{ab}\cap V_{ba})\cap U_{ac}\cap U_{bc}=\varnothing$, $A\cap C = (U_{ac}\cap V_{ca})\cap U_{ab}\cap V_{cb}=\varnothing$, and $B\cap C = (U_{bc}\cap V_{cb})\cap V_{ba}\cap V_{ca}=\varnothing$.
+Now assume that the Hausdorff condition holds for $k$ distinct elements $x_1,\dots, x_k$ and consider an additional $x_{k+1}$.
 
 ## ⍟ The Standard Topology on the Reals is Hausdorff ⍟
 Without loss of generality, let $x<y$ be distinct points in ℝ. Their average $z:=(x+y)/2$ satisfies $x<z<y$, thus $x\in(-\infty,z)$, $y\in(z,\infty)$, and $(-\infty,z)\cap (z,\infty)=\varnothing$, satisfying the Hausdorff condition. ☑
