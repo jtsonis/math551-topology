@@ -8,6 +8,9 @@ Without loss of generality, let $x<y$ be distinct points in ℝ. Their average $
 ## ⍟ The Lower Limit Topology on the Reals is Hausdorff ⍟
 Let $x<y$ and $[x,y)\cap [y,\infty)=\varnothing$ satisfies the Hausdorff condition. ☑
 
+## ⍟ The Finite Complement Topology on an Infinite Set is NOT Hausdorff ⍟
+Let $x,y\in X$ with $x\ne y$ and assume by contradiction that $\exists U,V$ open such that $x\in U$, $y\in V$, and $U\cap V=\varnothing$. By definition, $X-V$ is finite, and $U\cap V=\varnothing$ means $U\subseteq X-V$, therefore $U$ is finite, thus $U\cup(X-U)=X$ is finite, however $X$ is infinite, thus we have a contradiction. Therefore there cannot exist open sets $U,V$ on distinct points, meaning the Hausdorff condition cannot be met. ☑
+
 ## ⍟ The Discrete Topology is Hausdorff ⍟
 Let $x$ and $y$ be distinct points in the discrete topology and the singletons $x$ and $y$ are disjoint open sets which contain themselves, satisfying the Hausdorff condition. ☑
 
