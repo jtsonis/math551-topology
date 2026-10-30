@@ -34,3 +34,4 @@ Recall that the indiscrete topology on a set $X$ is &#123; $X,\varnothing$ &#125
 6. Let $X$ be a Hausdorff space with a sequence $x_n$. Prove that if $x_n$ converges to $x$ and $y,$ then $x=y$.
 7. Let $f,g: X\rightarrow Y$ be continuous functions and let $Y$ be Hausdorff. Prove that $E:=$ &#123; $x\in X\mid f(x)=g(x)$ &#125; is closed.
 * HINT: by definition of topological continuity, for any open sets $U,V\subseteq Y,$ $f^{-1}(U)$ and $g^{-1}(V)$ are open.
+* HINT: recall that $E$ is closed if $X-E=$ &#123; $x\in X\mid f(x) \ne g(x)$ &#125; is open, and for all $p\in X-E$, $f(p)$ and $g(p)$ are distinct points in $Y$.
