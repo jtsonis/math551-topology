@@ -28,6 +28,7 @@ Recall that the indiscrete topology on a set $X$ is &#123; $X,\varnothing$ &#125
 2. Prove that the product of two Hausdorff spaces is Hausdorff.
 3. Prove that a subspace of a Hausdorff space is Hausdorff.
 4. Let $\Delta =$ &#123; $x\times x\mid x\in X$ &#125; be the diagonal of $X$. Prove that $X$ is Hausdorff if and only if $\Delta$ is closed.
+* HINT: consider distinct elements $a\ne b$ and $(a,a),(b,b)\in X\times X$.
 5. The $T_1$ axiom states that all finite point sets are closed. Prove that if $X$ is Hausdorff, then $X$ satisfies the $T_1$ axiom.
 * HINT: prove that singletons are closed in Hausdorff spaces, which generalizes to finite point sets since the finite union of closed sets is closed.
 6. Let $X$ be a Hausdorff space with a sequence $x_n$. Prove that if $x_n$ converges to $x$ and $y,$ then $x=y$.
