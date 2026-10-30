@@ -25,6 +25,9 @@ Recall that the indiscrete topology on a set $X$ is &#123; $X,\varnothing$ &#125
 ## ⍟ Every Metric Topology is Hausdorff ⍟
 Recall that a metric topology uses a distance metric (e.g. $d(x,y) = |x-y|$) and defines its open sets as $B(x,\varepsilon)=$ &#123; $y\mid d(x,y)<\varepsilon$ &#125;. Let $x\ne y,$ meaning $d(x,y)\ne 0$, and let $D:= d(x,y)/4$. Then $B(x,D)$ and $B(y,D)$ are open sets such that $x\in B(x,D),$ $y\in B(y,D),$ and $B(x,D)\cap B(y,D)=\varnothing$. To prove this last claim, assume by contradiction that there is a point $z\in B(x,D)\cap B(y,D)$. The triangle inequality states that for all $x,y,z$ in a metric space, $d(x,y) \le d(x,z) + d(y,z)$, and because $d(x,z)\le D$ and $d(y,z)\le D$, $d(x,z)+d(y,z)\le 2D = d(x,y)/2 < d(x,y)$ which contradicts the triangle inequality. ☑
 
+## ⍟ The Nested Interval Topology is NOT Hausdorff ⍟
+The open sets in the nested interval topology are $\varnothing,$ $(0,1-{1/2}),$ $(0,1-{1/3}),$ $(0,1-{1/4}),$ $\cdots$ and $(0,1)$. Every nonempty open set intersects $(0,1/2)$ so there is no way that any two distinct points can respectively be in disjoint open sets. In fact, for all $x<y$ in $(0,1)$, every open set containing $y$ also contains $x$. ☑
+
 # Example Questions
 1. Prove that all order topologies are Hausdorff.
 * HINT: if $x\ne y,$ either $\exists z$ such that $x<z<y$, or $(x,y)=\varnothing.$ These cases have to be examined separately.
