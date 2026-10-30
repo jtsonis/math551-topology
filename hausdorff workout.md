@@ -17,7 +17,7 @@ Let $x<y$ and $[x,y)\cap [y,\infty)=\varnothing$ satisfies the Hausdorff conditi
 Let $x,y\in X$ with $x\ne y$ and assume by contradiction that $\exists U,V$ open such that $x\in U,$ $y\in V,$ and $U\cap V=\varnothing$. By definition, $X-V$ is finite, and $U\cap V=\varnothing$ means $U\subseteq X-V,$ therefore $U$ is finite, thus $U\cup(X-U)=X$ is finite, however $X$ is infinite, thus we have a contradiction. Therefore there cannot exist open sets $U,V$ on distinct points, meaning the Hausdorff condition cannot be met. ☑
 
 ## ⍟ The Discrete Topology is Hausdorff ⍟
-Let $x$ and $y$ be distinct points in the discrete topology and the singletons $x$ and $y$ are disjoint open sets which contain themselves, satisfying the Hausdorff condition. ☑
+Let $x$ and $y$ be distinct points in the discrete topology and the singletons $x$ and $y$ are disjoint open sets which contain themselves, satisfying the Hausdorff condition. ☑ {{{
 
 ## ⍟ The Indiscrete Topology is NOT Hausdorff ⍟
 Recall that the indiscrete topology on a set $X$ is &#123; $X,\varnothing$ &#125; so the only open set available to contain two disjoint points is $X,$ and $X\cap X=X\ne\varnothing,$ so the indiscrete topology cannot satisfy the Hausdorff condition. ☑
