@@ -31,3 +31,5 @@ Recall that the indiscrete topology on a set $X$ is &#123; $X,\varnothing$ &#125
 5. The $T_1$ axiom states that all finite point sets are closed. Prove that if $X$ is Hausdorff, then $X$ satisfies the $T_1$ axiom.
 * HINT: prove that singletons are closed in Hausdorff spaces, which generalizes to finite point sets since the finite union of closed sets is closed.
 6. Let $X$ be a Hausdorff space with a sequence $x_n$. Prove that if $x_n$ converges to $x$ and $y$, then $x=y$.
+7. Let $f,g\colon X\rightarrow Y$ be continuous functions and let $Y$ be Hausdorff. Prove that $E:={x\in X\mid f(x)=g(x)}$ is closed.
+* HINT: by definition of topological continuity, for any open sets $U,V\subseteq Y$, $f^{-1}(U)$ and $g^{-1}(V)$ are open.
