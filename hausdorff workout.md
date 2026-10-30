@@ -35,6 +35,6 @@ Recall that the indiscrete topology on a set $X$ is &#123; $X,\varnothing$ &#125
 7. Let $f,g: X\rightarrow Y$ be continuous functions and let $Y$ be Hausdorff. Prove that $E:=$ &#123; $x\in X\mid f(x)=g(x)$ &#125; is closed.
 * HINT: by definition of topological continuity, for any open sets $U,V\subseteq Y,$ $f^{-1}(U)$ and $g^{-1}(V)$ are open.
 * HINT: recall that $E$ is closed if $X-E=$ &#123; $x\in X\mid f(x) \ne g(x)$ &#125; is open, and for all $p\in X-E$, $f(p)$ and $g(p)$ are distinct points in $Y$.
-8. Let $A\subseteq X$, let $f:A\rightarrow Y$ be continuous, and let $Y$ be Hausdorff. If it is the case that $g:\bar{A}\rightarrow Y$ and $h:\bar{A}\rightarrow Y$ can be well-defined as continuous extensions of $f$, prove that $g(x) = h(x)$ for all $x\in A$
-* HINT: if $x\in A$, then $g(x)=h(x)=f(x)$. The nontrivial points are $x\in\bar{A}-A$.
+8. Let $A\subseteq X$, let $f:A\rightarrow Y$ be continuous, and let $Y$ be Hausdorff. If it is the case that $g:\overline{A}\rightarrow Y$ and $h:\overline{A}\rightarrow Y$ can be well-defined as continuous extensions of $f$, prove that $g(x) = h(x)$ for all $x\in A$
+* HINT: if $x\in A$, then $g(x)=h(x)=f(x)$. The nontrivial points are $x\in\overline{A}-A$.
 * HINT: recall that if $x\in \overline{A}$, then $\forall U$ open with $x\in U$, $U\cap A\ne\varnothing$.
