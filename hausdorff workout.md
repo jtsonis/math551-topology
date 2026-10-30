@@ -22,6 +22,9 @@ Let $x$ and $y$ be distinct points in the discrete topology and the singletons $
 ## ⍟ The Indiscrete Topology is NOT Hausdorff ⍟
 Recall that the indiscrete topology on a set $X$ is &#123; $X,\varnothing$ &#125; so the only open set available to contain two disjoint points is $X,$ and $X\cap X=X\ne\varnothing,$ so the indiscrete topology cannot satisfy the Hausdorff condition. ☑
 
+## ⍟ Every Metric Topology is Hausdorff ⍟
+Recall that a metric topology uses a distance metric (e.g. $d(x,y) = |x-y|$) and defines its open sets as $B(x,\varepsilon)=$ &#123; $y\mid d(x,y)<\varepsilon$ &#125;. Let $x\ne y,$ meaning $d(x,y)\ne 0$. Then $B(x,d(x,y)/3)$ and $B(y,d(x,y)/3)$ are open sets such that $x\in B(x,d(x,y)/2),$ $y\in B(y,d(x,y)/2),$ and $B(x,d(x,y)/3)\cap B(y,d(x,y)/3)=\varnothing$. To prove this last claim, assume by contradiction that there is a point $z\in B(x,d(x,y)/3)\cap B(y,d(x,y)/3)$. The triangle inequality states that for all $x,y,z$ in a metric space, $d(x,y) \le d(x,z) + d(y,z)$, and because $d(x,z)\le d(x,y)/3$ and $d(y,z)\le d(x,y)/3$, $d(x,z)+d(y,z)\le d(x,y)/3 + d(x,y)/3 < d(x,y)$ which is a contradiction. ☑
+
 # Example Questions
 1. Prove that all order topologies are Hausdorff.
 * HINT: if $x\ne y,$ either $\exists z$ such that $x<z<y$, or $(x,y)=\varnothing.$ These cases have to be examined separately.
