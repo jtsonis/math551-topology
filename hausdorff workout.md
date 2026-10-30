@@ -24,7 +24,7 @@ Recall that the indiscrete topology on a set $X$ is &#123; $X,\varnothing$ &#125
 
 # Example Questions
 1. Prove that all order topologies are Hausdorff.
-* HINT: if $x\ne y,$ either $\exists z$ such that $x<z<y$ or $(x,y)=\varnothing,$ and these cases have to be examined separately.
+* HINT: if $x\ne y,$ either $\exists z$ such that $x<z<y$, or $(x,y)=\varnothing.$ These cases have to be examined separately.
 2. Prove that the product of two Hausdorff spaces is Hausdorff.
 3. Prove that a subspace of a Hausdorff space is Hausdorff.
 4. Let $\Delta =$ &#123; $x\times x\mid x\in X$ &#125; be the diagonal of $X$. Prove that $X$ is Hausdorff if and only if $\Delta$ is closed.
