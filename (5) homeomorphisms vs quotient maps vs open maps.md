@@ -2,7 +2,7 @@
 
 **Recall:** a function $f:X\rightarrow Y$ is continuous when $U$ open in $Y$ implies $f^{-1}(U)$ is open in $X$.
 
-Let $f:X\rightarrow Y$ be a function. $f$ is an _open map_ if for all $U$ open in $X$, $f(U)$ is open in $Y$. $f$ is a _quotient map_ if $V$ is open in $Y$ if and only if $f^{-1}(V)$ is open in $X$. $f$ is a homeomorphism if both $f$ and $f^{-1}$ are continuous. Finally, a subset $C$ of $X$ is _saturated_ if it equals the complete inverse of a set in $Y$.
+Let $f:X\rightarrow Y$ be a function. $f$ is an _open map_ if for all $U$ open in $X$, $f(U)$ is open in $Y$. $f$ is a _quotient map_ if $V$ is open in $Y$ if and only if $f^{-1}(V)$ is open in $X$. $f$ is a homeomorphism if both $f$ and $f^{-1}$ are continuous. Finally, a subset $C$ of $X$ is _saturated_ if it equals the complete inverse of a set in $Y$, i.e. $\exists D$ such that $f^{-1}(D)=C$.
 
 ## All Homeomorphisms are Quotient Maps.
 
