@@ -11,7 +11,7 @@ Let $f:X\rightarrow Y$ be a homeomorphism. Because $f$ and $f^{-1}$ exist, $f$ i
 
 ## Not all Quotient Maps are Homeomorphisms.
 
-Let $f:[0,2\pi)\rightarrow S^1$ via $x\mapsto (\cos(t),\sin(t))$, which we visualize with a diagram of the unit circle. Consider the interval from the point $\left(\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2}\right)$ to $\left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)$ such that it includes $0$: the preimage of this interval is $\left[0,\frac{\pi}{4}\right)\cup\left(\frac{7\pi}{4}, 2\pi\right)$ which is open in the subspace topology. However $f$ is not a homeomorphism because the set $\left[0,\frac{\pi}{4}\right)$ is open yet $f$ sends that interval to an interval that is not open on the unit circle.
+Let $f:[0,2\pi)\rightarrow S^1$ via $x\mapsto (\cos(t),\sin(t))$, which we visualize with a diagram of the unit circle. Consider the interval from the point $\left(\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2}\right)$ to $\left(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)$ such that it includes $0$: the preimage of this interval is $\left[0,\frac{\pi}{4}\right)\cup\left(\frac{7\pi}{4}, 2\pi\right)$ which is open in the subspace topology. However $f$ is not a homeomorphism because the set $\left[0,\frac{\pi}{4}\right)$ is open, yet $f$ sends that interval to an interval that is not open on the unit circle.
 
 ## Not all Quotient Maps are Open Maps.
 
