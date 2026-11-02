@@ -11,7 +11,7 @@ Let $f:X\rightarrow Y$ be a homeomorphism. Because $f$ and $f^{-1}$ exist, $f$ i
 
 ## Not all Quotient Maps are Open Maps.
 
-Trivially, all open maps are quotient maps because if every open set maps to an open set, then every saturated open set maps to an open set. However consider the following map $p:X\rightarrow Y$ where $X$ and $Y$ are both subspaces of ℝ using the standard topology. Example Questions #2 and #3 ask you to prove that $p$ is a quotient map, however $p$ is not an open map because the image of $[0,1]$ is $[0,1]\cup⟨2⟩$ which is not open.
+Trivially, all open maps are quotient maps because if every open set maps to an open set, then every saturated open set maps to an open set. However consider the following map $p:X\rightarrow Y$ where $X = [0,1]\cup[2,3]$ and $Y=[0,2]$ are both subspaces of ℝ using the standard topology. Example Questions #2 and #3 ask you to prove that $p$ is a quotient map, however $p$ is not an open map because the image of $[0,1]\subseteq X$ is $[0,1]\cup⟨2⟩$ which is not open, even though $[0,1]=(-0.5,1.5)\cap X$ which is open in the subspace topology.
 
 <img src="Images/quotientmap.png" alt="quotient map" width="300"/>
 
@@ -25,6 +25,6 @@ Trivially, all open maps are quotient maps because if every open set maps to an 
 # Example Questions
 1. Prove that all homeomorphisms are open maps without invoking quotient maps.
 2a. Consult the above diagram. Prove that for all basis elements $(a,b)$ in $[0,1]$, $p^{-1}[(a,b)]$ is open.
-2b. 
+2b. Let $S \subseteq X$ be a saturated open set, i.e. $S$ is open and $\exists V$ such that $p^{-1}(V)=S$. Prove that $p^{-1}(V)$ is open.
 3. Let $f:ℝ\rightarrow ℝ$ via $f(x) = x^2$. Is $[-2,2]$ a saturated set in $X$? Is $[0,2]$ a saturated set in $X$?
 4. Closed maps send all closed sets to closed images. Prove that $f:ℝ\rightarrow ℝ$ via $x\mapsto 2$ is a closed. Is $f$ open?
