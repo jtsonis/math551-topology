@@ -24,11 +24,7 @@ Trivially, all open maps are quotient maps because if every open set maps to an 
 
 # Example Questions
 1. Prove that all homeomorphisms are open maps without invoking quotient maps.
-
-2a. Consult the above diagram. Prove that for all basis elements $(a,b)$ in $[0,1]$, $p^{-1}[(a,b)]$ is open.
-
-2b. Let $S \subseteq X$ be a saturated open set, i.e. $S$ is open and $\exists V$ such that $p^{-1}(V)=S$. Prove that $p^{-1}(V)$ is open.
-
-3. Let $f:ℝ\rightarrow ℝ$ via $f(x) = x^2$. Is $[-2,2]$ a saturated set in $X$? Is $[0,2]$ a saturated set in $X$?
-
-4. Closed maps send all closed sets to closed images. Prove that $f:ℝ\rightarrow ℝ$ via $x\mapsto 2$ is a closed. Is $f$ open?
+2. Consult the above diagram. Prove that for all basis elements $(a,b)$ in $[0,1]$, $p^{-1}[(a,b)]$ is open.
+3. Let $S \subseteq X$ be a saturated open set, i.e. $S$ is open and $\exists V$ such that $p^{-1}(V)=S$. Prove that $p^{-1}(V)$ is open.
+4. Let $f:ℝ\rightarrow ℝ$ via $f(x) = x^2$. Is $[-2,2]$ a saturated set in $X$? Is $[0,2]$ a saturated set in $X$?
+5. Closed maps send all closed sets to closed images. Prove that $f:ℝ\rightarrow ℝ$ via $x\mapsto 2$ is a closed. Is $f$ open?
