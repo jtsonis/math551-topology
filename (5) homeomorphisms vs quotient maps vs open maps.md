@@ -11,7 +11,12 @@ Let $f:X\rightarrow Y$ be a homeomorphism. Because $f$ and $f^{-1}$ exist, $f$ i
 
 ## Not all Quotient Maps are Open Maps.
 
-Trivially, all open maps are quotient maps because if every open set maps to an open set, then every saturated open set maps to an open set. However consider 
+Trivially, all open maps are quotient maps because if every open set maps to an open set, then every saturated open set maps to an open set. However consider the following map $p:X\rightarrow Y$ where $X$ and $Y$ are both subspaces of ℝ using the standard topology. Example Questions #2 and #3 ask you to prove that $p$ is a quotient map, however $p$ is not an open map because the image of $[0,1]$ is $[0,1]\cup { 2 } $ which is not open.
+
+<img src="Images/quotientmap.png" alt="quotient map" width="500"/>
+
+
+
 
 ## 
 
@@ -19,5 +24,7 @@ Trivially, all open maps are quotient maps because if every open set maps to an 
 
 # Example Questions
 1. Prove that all homeomorphisms are open maps without invoking quotient maps.
-2. Let $f:ℝ\rightarrow ℝ$ via $f(x) = x^2$. Is $[-2,2]$ a saturated set in $X$? Is $[0,2]$ a saturated set in $X$?
-3. Closed maps send all closed sets to closed images. Prove that $f:ℝ\rightarrow ℝ$ via $x\mapsto 2$ is a closed. Is $f$ open?
+2a. Consult the above diagram. Prove that for all basis elements $(a,b)$ in $[0,1]$, $p^{-1}[(a,b)]$ is open.
+2b. 
+3. Let $f:ℝ\rightarrow ℝ$ via $f(x) = x^2$. Is $[-2,2]$ a saturated set in $X$? Is $[0,2]$ a saturated set in $X$?
+4. Closed maps send all closed sets to closed images. Prove that $f:ℝ\rightarrow ℝ$ via $x\mapsto 2$ is a closed. Is $f$ open?
