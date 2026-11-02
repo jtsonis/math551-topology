@@ -11,7 +11,7 @@ Let $f:X\rightarrow Y$ be a homeomorphism. Because $f$ and $f^{-1}$ exist, $f$ i
 
 ## Not all Quotient Maps are Homeomorphisms.
 
-Let $f:[0,2\pi)\rightarrow S^1$ via $x\mapsto (\cos(t),\sin(t))$, which we visualize with a diagram of the unit circle. Consider the interval from the point $(\sqrt{2}/2,-\sqrt{2}/2)$ to $(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2})$ such that it includes $0$: the preimage of this interval is $[0,\frac{\pi}{4})\cup(\frac{7\pi}{4}, 2\pi)$ which is open in the subspace topology. However $f$ is not a homeomorphism because the set $[0,\frac{\pi}{4})$ is open yet $f$ sends that interval to an interval that is not open on the unit circle.
+Let $f:[0,2\pi)\rightarrow S^1$ via $x\mapsto (\cos(t),\sin(t))$, which we visualize with a diagram of the unit circle. Consider the interval from the point $(\frac{\sqrt{2}}{2},-\frac{\sqrt{2}}{2})$ to $(\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2})$ such that it includes $0$: the preimage of this interval is $[0,\frac{\pi}{4})\cup(\frac{7\pi}{4}, 2\pi)$ which is open in the subspace topology. However $f$ is not a homeomorphism because the set $[0,\frac{\pi}{4})$ is open yet $f$ sends that interval to an interval that is not open on the unit circle.
 
 ## Not all Quotient Maps are Open Maps.
 
