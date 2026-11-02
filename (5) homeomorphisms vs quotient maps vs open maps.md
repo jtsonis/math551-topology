@@ -24,4 +24,4 @@ Trivially, all open maps are quotient maps because if every open set maps to an 
 2. Consult the above diagram. Prove that for all basis elements $(a,b)$ in $Y$, $p^{-1}[(a,b)]$ is open.
 3. Let $f:ℝ\rightarrow ℝ$ via $f(x) = x^2$. Is $[-2,2]$ a saturated set in $X$? Is $[0,2]$ a saturated set in $X$?
 4. Closed maps send all closed sets to closed images. Prove that $f:ℝ\rightarrow ℝ$ via $x\mapsto 2$ is a closed. Is $f$ open?
-5. Let (D1) be " $p:X\rightarrow Y$ is a quotient map when $U$ is open in $Y$ if and only if $p^{-1}(U)$ is open in $X$." Let (D2) be " $p:X\rightarrow Y$ is a quotient map if $p(A)$ is open for all saturated open sets $A$ in $X$." Prove that (D1) implies (D2) and that (D2) implies (D1).
+5. Let (D1) be ''$p:X\rightarrow Y$ is a quotient map when $U$ is open in $Y$ if and only if $p^{-1}(U)$ is open in $X$.'' Let (D2) be ''$p:X\rightarrow Y$ is a quotient map if $p(A)$ is open for all saturated open sets $A$ in $X$.'' Prove that (D1) implies (D2) and that (D2) implies (D1).
