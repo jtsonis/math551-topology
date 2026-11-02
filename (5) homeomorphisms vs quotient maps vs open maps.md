@@ -15,7 +15,7 @@ Let $f:[0,2\pi)\rightarrow S^1$ via $x\mapsto (\cos(t),\sin(t))$, which we visua
 
 ## Not all Quotient Maps are Open Maps.
 
-Trivially, all open maps are quotient maps because if every open set maps to an open set, then every saturated open set maps to an open set. However consider the following map $p:X\rightarrow Y$ where $X = [0,1]\cup[2,3]$ and $Y=[0,2]$ are both subspaces of ℝ using the standard topology. $p$ is a quotient map, however $p$ is not an open map because the image of $[0,1]\subseteq X$ is $[0,1]\cup⟨2⟩$ which is not open, even though $[0,1]=(-0.5,1.5)\cap X$ which is open in the subspace topology. 
+Trivially, all open maps are quotient maps because if every open set maps to an open set, then every saturated open set maps to an open set. However consider the following map $p:X\rightarrow Y$ where $X = [0,1]\cup[2,3]$ and $Y=[0,2]$ are both subspaces of ℝ using the standard topology. $p$ is a quotient map, however $p$ is not an open map because the image of $[0,1]\subseteq X$ is $[0,1]\cup⟨2⟩$ which is not open, even though $[0,1]=(-0.5,1.5)\cap X$ is open in the subspace topology. 
 
 <img src="Images/quotientmap.png" alt="quotient map" width="300"/>
 
