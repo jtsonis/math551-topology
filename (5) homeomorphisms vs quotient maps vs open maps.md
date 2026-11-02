@@ -14,5 +14,5 @@ Let $f:X\rightarrow Y$ be a homeomorphism. Because $f$ and $f^{-1}$ exist, $f$ i
 
 # Example Questions
 1. Prove that all homeomorphisms are open maps.
-2. Let $f:ℝ\rightarrow ℝ$ via $f(x) = x^2$. Is $[-4,4]$ a saturated set in $X$? Is $[0,4]$ a saturated set in $X$?
+2. Let $f:ℝ\rightarrow ℝ$ via $f(x) = x^2$. Is $[-2,2]$ a saturated set in $X$? Is $[0,2]$ a saturated set in $X$?
 3. Closed maps send all closed sets to closed images. Prove that $f:ℝ\rightarrow ℝ$ via $x\mapsto 2$ is a closed. Is $f$ open?
