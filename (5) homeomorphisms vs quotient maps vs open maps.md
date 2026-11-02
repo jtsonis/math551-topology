@@ -18,7 +18,7 @@ Trivially, all open maps are quotient maps because if every open set maps to an 
 
 
 
-## 
+## Test
 
 ## Format ⍟ ☑
 
